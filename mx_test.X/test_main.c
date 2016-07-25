@@ -1,5 +1,5 @@
 /* Test code for SPI#1 SDCARD and PIC18f45K80 DAQ SPI#2 slave
- * It just setups and configures the ports so test routines can exercise the code and hardware for testing.
+ * It just sets up and configures the ports so test routines can exercise the code and hardware for testing.
  * The RS-232 port access functions are very useful for debugging low pin count pic32mx devices
  * Version	0.1	Started adding ChaN FatFS routines for MSDOS SDCARD usage
  *		0.2	Start to swap the SPI ports so the buss can be 5v tolerant using PPS ports

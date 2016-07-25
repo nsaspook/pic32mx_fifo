@@ -6,13 +6,1200 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-CONFIG::(CN_ON|CN_IDLE_CON)	X:\mx_test.X\test_main.c	77;"	d	line:77	file:
-INTERRUPT::(CHANGE_INT_ON|CHANGE_INT_PRI_	X:\mx_test.X\test_main.c	80;"	d	line:80	file:
-MAX_SPI_TXFER_SIZE::512	X:\mx_test.X\test_main.c	84;"	d	line:84	file:
-MIN_SPI_TXFER_SIZE::8	X:\mx_test.X\test_main.c	83;"	d	line:83	file:
-PINS::(CN15_ENABLE)	X:\mx_test.X\test_main.c	78;"	d	line:78	file:
-PULLUPS::(CN15_PULLUP_ENABLE)	X:\mx_test.X\test_main.c	79;"	d	line:79	file:
-ReadCoreTimer	X:\mx_test.X\test_main.c	110;"	p	line:110	file:
-SYS_FREQ::(50000000L)	X:\mx_test.X\test_main.c	81;"	d	line:81	file:
-a	X:\mx_test.X\test_main.c	102;"	l	line:102
-main	X:\mx_test.X\test_main.c	100;"	f	line:100	signature:(void)
+ABORT::(fs,res){fp->err=(BYTE)(res);L	X:\cpanel\mx_test.X\src\ff.c	145;"	d	line:145	file:
+ACMD13::(0xC0+13)	X:\cpanel\mx_test.X\mx_test_defs.h	71;"	d	line:71
+ACMD23::(0xC0+23)	X:\cpanel\mx_test.X\mx_test_defs.h	76;"	d	line:76
+ACMD41::(0xC0+41)	X:\cpanel\mx_test.X\mx_test_defs.h	66;"	d	line:66
+ADGAIN::0.983	X:\cpanel\mx_test.X\test_main.c	90;"	d	line:90	file:
+ADOFFSET::0.0015	X:\cpanel\mx_test.X\test_main.c	89;"	d	line:89	file:
+ADREF::2.048	X:\cpanel\mx_test.X\test_main.c	88;"	d	line:88	file:
+ADSCALE::4095	X:\cpanel\mx_test.X\test_main.c	87;"	d	line:87	file:
+AM_ARC::0x20	X:\cpanel\mx_test.X\src\ff.h	314;"	d	line:314
+AM_DIR::0x10	X:\cpanel\mx_test.X\src\ff.h	313;"	d	line:313
+AM_HID::0x02	X:\cpanel\mx_test.X\src\ff.h	309;"	d	line:309
+AM_LFN::0x0F	X:\cpanel\mx_test.X\src\ff.h	312;"	d	line:312
+AM_MASK::0x3F	X:\cpanel\mx_test.X\src\ff.h	315;"	d	line:315
+AM_RDO::0x01	X:\cpanel\mx_test.X\src\ff.h	308;"	d	line:308
+AM_SYS::0x04	X:\cpanel\mx_test.X\src\ff.h	310;"	d	line:310
+AM_VOL::0x08	X:\cpanel\mx_test.X\src\ff.h	311;"	d	line:311
+ATA::0	X:\cpanel\mx_test.X\src\diskio.c	17;"	d	line:17	file:
+ATA_GET_MODEL::21	X:\cpanel\mx_test.X\src\diskio.h	73;"	d	line:73
+ATA_GET_REV::20	X:\cpanel\mx_test.X\src\diskio.h	72;"	d	line:72
+ATA_GET_SN::22	X:\cpanel\mx_test.X\src\diskio.h	74;"	d	line:74
+BLINKER_H	X:\cpanel\mx_test.X\blinker.h	9;"	d	line:9
+BPB_BkBootSec::50	X:\cpanel\mx_test.X\src\ff.c	441;"	d	line:441	file:
+BPB_BytsPerSec::11	X:\cpanel\mx_test.X\src\ff.c	419;"	d	line:419	file:
+BPB_ExtFlags::40	X:\cpanel\mx_test.X\src\ff.c	437;"	d	line:437	file:
+BPB_FATSz16::22	X:\cpanel\mx_test.X\src\ff.c	426;"	d	line:426	file:
+BPB_FATSz32::36	X:\cpanel\mx_test.X\src\ff.c	436;"	d	line:436	file:
+BPB_FSInfo::48	X:\cpanel\mx_test.X\src\ff.c	440;"	d	line:440	file:
+BPB_FSVer::42	X:\cpanel\mx_test.X\src\ff.c	438;"	d	line:438	file:
+BPB_HiddSec::28	X:\cpanel\mx_test.X\src\ff.c	429;"	d	line:429	file:
+BPB_Media::21	X:\cpanel\mx_test.X\src\ff.c	425;"	d	line:425	file:
+BPB_NumFATs::16	X:\cpanel\mx_test.X\src\ff.c	422;"	d	line:422	file:
+BPB_NumHeads::26	X:\cpanel\mx_test.X\src\ff.c	428;"	d	line:428	file:
+BPB_RootClus::44	X:\cpanel\mx_test.X\src\ff.c	439;"	d	line:439	file:
+BPB_RootEntCnt::17	X:\cpanel\mx_test.X\src\ff.c	423;"	d	line:423	file:
+BPB_RsvdSecCnt::14	X:\cpanel\mx_test.X\src\ff.c	421;"	d	line:421	file:
+BPB_SecPerClus::13	X:\cpanel\mx_test.X\src\ff.c	420;"	d	line:420	file:
+BPB_SecPerTrk::24	X:\cpanel\mx_test.X\src\ff.c	427;"	d	line:427	file:
+BPB_TotSec16::19	X:\cpanel\mx_test.X\src\ff.c	424;"	d	line:424	file:
+BPB_TotSec32::32	X:\cpanel\mx_test.X\src\ff.c	430;"	d	line:430	file:
+BS_55AA::510	X:\cpanel\mx_test.X\src\ff.c	453;"	d	line:453	file:
+BS_BootSig32::66	X:\cpanel\mx_test.X\src\ff.c	443;"	d	line:443	file:
+BS_BootSig::38	X:\cpanel\mx_test.X\src\ff.c	432;"	d	line:432	file:
+BS_DrvNum32::64	X:\cpanel\mx_test.X\src\ff.c	442;"	d	line:442	file:
+BS_DrvNum::36	X:\cpanel\mx_test.X\src\ff.c	431;"	d	line:431	file:
+BS_FilSysType32::82	X:\cpanel\mx_test.X\src\ff.c	446;"	d	line:446	file:
+BS_FilSysType::54	X:\cpanel\mx_test.X\src\ff.c	435;"	d	line:435	file:
+BS_OEMName::3	X:\cpanel\mx_test.X\src\ff.c	418;"	d	line:418	file:
+BS_VolID32::67	X:\cpanel\mx_test.X\src\ff.c	444;"	d	line:444	file:
+BS_VolID::39	X:\cpanel\mx_test.X\src\ff.c	433;"	d	line:433	file:
+BS_VolLab32::71	X:\cpanel\mx_test.X\src\ff.c	445;"	d	line:445	file:
+BS_VolLab::43	X:\cpanel\mx_test.X\src\ff.c	434;"	d	line:434	file:
+BS_jmpBoot::0	X:\cpanel\mx_test.X\src\ff.c	417;"	d	line:417	file:
+BUS_CHAN::SPI_CHANNEL2	X:\cpanel\mx_test.X\sdspi.c	16;"	d	line:16	file:
+BYTE	X:\cpanel\mx_test.X\src\integer.h	16;"	t	line:16
+Blink_Init	X:\cpanel\mx_test.X\blinker.c	42;"	f	line:42	signature:(void)
+Blink_Init	X:\cpanel\mx_test.X\blinker.h	14;"	p	line:14	signature:(void)
+CMD0::(0x40+0)	X:\cpanel\mx_test.X\mx_test_defs.h	64;"	d	line:64
+CMD10::(0x40+10)	X:\cpanel\mx_test.X\mx_test_defs.h	69;"	d	line:69
+CMD12::(0x40+12)	X:\cpanel\mx_test.X\mx_test_defs.h	70;"	d	line:70
+CMD16::(0x40+16)	X:\cpanel\mx_test.X\mx_test_defs.h	72;"	d	line:72
+CMD17::(0x40+17)	X:\cpanel\mx_test.X\mx_test_defs.h	73;"	d	line:73
+CMD18::(0x40+18)	X:\cpanel\mx_test.X\mx_test_defs.h	74;"	d	line:74
+CMD1::(0x40+1)	X:\cpanel\mx_test.X\mx_test_defs.h	65;"	d	line:65
+CMD23::(0x40+23)	X:\cpanel\mx_test.X\mx_test_defs.h	75;"	d	line:75
+CMD24::(0x40+24)	X:\cpanel\mx_test.X\mx_test_defs.h	77;"	d	line:77
+CMD25::(0x40+25)	X:\cpanel\mx_test.X\mx_test_defs.h	78;"	d	line:78
+CMD55::(0x40+55)	X:\cpanel\mx_test.X\mx_test_defs.h	79;"	d	line:79
+CMD58::(0x40+58)	X:\cpanel\mx_test.X\mx_test_defs.h	80;"	d	line:80
+CMD8::(0x40+8)	X:\cpanel\mx_test.X\mx_test_defs.h	67;"	d	line:67
+CMD9::(0x40+9)	X:\cpanel\mx_test.X\mx_test_defs.h	68;"	d	line:68
+CMD_ADC_DATA::0b11000000	X:\cpanel\mx_test.X\mx_test_defs.h	88;"	d	line:88
+CMD_ADC_GO::0b10000000	X:\cpanel\mx_test.X\mx_test_defs.h	84;"	d	line:84
+CMD_ADC_GO_H::0b10010000	X:\cpanel\mx_test.X\mx_test_defs.h	85;"	d	line:85
+CMD_CHAR_DATA::0b11100000	X:\cpanel\mx_test.X\mx_test_defs.h	90;"	d	line:90
+CMD_CHAR_GO::0b10110000	X:\cpanel\mx_test.X\mx_test_defs.h	87;"	d	line:87
+CMD_CHAR_RX::0b00010000	X:\cpanel\mx_test.X\mx_test_defs.h	92;"	d	line:92
+CMD_DEAD::0b11111111	X:\cpanel\mx_test.X\mx_test_defs.h	95;"	d	line:95
+CMD_DUMMY::0b00111010	X:\cpanel\mx_test.X\mx_test_defs.h	99;"	d	line:99
+CMD_DUMMY_CFG::0b00000000	X:\cpanel\mx_test.X\mx_test_defs.h	93;"	d	line:93
+CMD_PORT_DATA::0b11010000	X:\cpanel\mx_test.X\mx_test_defs.h	89;"	d	line:89
+CMD_PORT_GO::0b10100000	X:\cpanel\mx_test.X\mx_test_defs.h	86;"	d	line:86
+CMD_XXXX::0b11110000	X:\cpanel\mx_test.X\mx_test_defs.h	91;"	d	line:91
+CONFIG::(CN_ON|CN_IDLE_CON)	X:\cpanel\mx_test.X\test_main.c	60;"	d	line:60	file:
+CRC16	X:\cpanel\mx_test.X\sdspi.c	135;"	f	line:135	signature:(unsigned char *data, unsigned int length)
+CRC_ON_OFF::(0x40+59)	X:\cpanel\mx_test.X\mx_test_defs.h	81;"	d	line:81
+CREATE_LINKMAP::0xFFFFFFFF	X:\cpanel\mx_test.X\src\ff.h	319;"	d	line:319
+CTRL_EJECT::7	X:\cpanel\mx_test.X\src\diskio.h	61;"	d	line:61
+CTRL_ERASE_SECTOR::4	X:\cpanel\mx_test.X\src\diskio.h	56;"	d	line:56
+CTRL_FORMAT::8	X:\cpanel\mx_test.X\src\diskio.h	62;"	d	line:62
+CTRL_LOCK::6	X:\cpanel\mx_test.X\src\diskio.h	60;"	d	line:60
+CTRL_POWER::5	X:\cpanel\mx_test.X\src\diskio.h	59;"	d	line:59
+CTRL_SYNC::0	X:\cpanel\mx_test.X\src\diskio.h	52;"	d	line:52
+CT_BLOCK::0x08	X:\cpanel\mx_test.X\sdspi.c	25;"	d	line:25	file:
+CT_MMC::0x01	X:\cpanel\mx_test.X\sdspi.c	21;"	d	line:21	file:
+CT_SD1::0x02	X:\cpanel\mx_test.X\sdspi.c	22;"	d	line:22	file:
+CT_SD2::0x04	X:\cpanel\mx_test.X\sdspi.c	23;"	d	line:23	file:
+CT_SDC::(CT_SD1|CT_SD2)	X:\cpanel\mx_test.X\sdspi.c	24;"	d	line:24	file:
+CardType	X:\cpanel\mx_test.X\sdspi.c	28;"	v	line:28	file:
+CurrVol	X:\cpanel\mx_test.X\src\ff.c	500;"	v	line:500	file:
+CurrentLocalTime	X:\cpanel\mx_test.X\sdspi.c	822;"	l	line:822
+CurrentTimeStamp	X:\cpanel\mx_test.X\sdspi.c	821;"	l	line:821
+DDE::0xE5	X:\cpanel\mx_test.X\src\ff.c	474;"	d	line:474	file:
+DEF_NAMEBUF::BYTEsfn[12]	X:\cpanel\mx_test.X\src\ff.c	509;"	d	line:509	file:
+DEF_NAMEBUF::BYTEsfn[12]	X:\cpanel\mx_test.X\src\ff.c	516;"	d	line:516	file:
+DEF_NAMEBUF::BYTEsfn[12];WCHAR*lfn	X:\cpanel\mx_test.X\src\ff.c	526;"	d	line:526	file:
+DEF_NAMEBUF::BYTEsfn[12];WCHARlbuf[_MAX_LFN	X:\cpanel\mx_test.X\src\ff.c	521;"	d	line:521	file:
+DIR	X:\cpanel\mx_test.X\src\ff.h	158;"	t	line:158
+DIR_Attr::11	X:\cpanel\mx_test.X\src\ff.c	456;"	d	line:456	file:
+DIR_CrtDate::16	X:\cpanel\mx_test.X\src\ff.c	460;"	d	line:460	file:
+DIR_CrtTime::14	X:\cpanel\mx_test.X\src\ff.c	459;"	d	line:459	file:
+DIR_CrtTimeTenth::13	X:\cpanel\mx_test.X\src\ff.c	458;"	d	line:458	file:
+DIR_FileSize::28	X:\cpanel\mx_test.X\src\ff.c	466;"	d	line:466	file:
+DIR_FstClusHI::20	X:\cpanel\mx_test.X\src\ff.c	462;"	d	line:462	file:
+DIR_FstClusLO::26	X:\cpanel\mx_test.X\src\ff.c	465;"	d	line:465	file:
+DIR_LstAccDate::18	X:\cpanel\mx_test.X\src\ff.c	461;"	d	line:461	file:
+DIR_NTres::12	X:\cpanel\mx_test.X\src\ff.c	457;"	d	line:457	file:
+DIR_Name::0	X:\cpanel\mx_test.X\src\ff.c	455;"	d	line:455	file:
+DIR_WrtDate::24	X:\cpanel\mx_test.X\src\ff.c	464;"	d	line:464	file:
+DIR_WrtTime::22	X:\cpanel\mx_test.X\src\ff.c	463;"	d	line:463	file:
+DRESULT	X:\cpanel\mx_test.X\src\diskio.h	28;"	t	line:28
+DSTATUS	X:\cpanel\mx_test.X\src\diskio.h	19;"	t	line:19
+DWORD	X:\cpanel\mx_test.X\src\integer.h	29;"	t	line:29
+DelayMs	X:\cpanel\mx_test.X\test_main.c	112;"	f	line:112	signature:(WORD delay)
+DelaySPI	X:\cpanel\mx_test.X\sdspi.c	156;"	f	line:156	file:	signature:(WORD delay, int srq)
+Drive_leds	X:\cpanel\mx_test.X\blinker.c	53;"	f	line:53	file:	signature:(void)
+ENTER_FF::(fs)	X:\cpanel\mx_test.X\src\ff.c	141;"	d	line:141	file:
+ENTER_FF::(fs){if(!lock_fs(fs))returnFR_	X:\cpanel\mx_test.X\src\ff.c	138;"	d	line:138	file:
+EOF::(-1)	X:\cpanel\mx_test.X\src\ff.h	245;"	d	line:245
+ERR1::1	X:\cpanel\mx_test.X\mx_test_defs.h	52;"	d	line:52
+ERR2::2	X:\cpanel\mx_test.X\mx_test_defs.h	53;"	d	line:53
+ExCvt	X:\cpanel\mx_test.X\src\ff.c	539;"	v	line:539	file:
+External_Interrupt_1	X:\cpanel\mx_test.X\test_main.c	138;"	f	line:138	signature:(void)
+External_Interrupt_2	X:\cpanel\mx_test.X\test_main.c	148;"	f	line:148	signature:(void)
+FATFS	X:\cpanel\mx_test.X\src\ff.h	107;"	t	line:107
+FATFSTimeCode	X:\cpanel\mx_test.X\sdspi.c	823;"	l	line:823
+FA_CREATE_ALWAYS::0x08	X:\cpanel\mx_test.X\src\ff.h	292;"	d	line:292
+FA_CREATE_NEW::0x04	X:\cpanel\mx_test.X\src\ff.h	291;"	d	line:291
+FA_OPEN_ALWAYS::0x10	X:\cpanel\mx_test.X\src\ff.h	293;"	d	line:293
+FA_OPEN_EXISTING::0x00	X:\cpanel\mx_test.X\src\ff.h	287;"	d	line:287
+FA_READ::0x01	X:\cpanel\mx_test.X\src\ff.h	286;"	d	line:286
+FA_WRITE::0x02	X:\cpanel\mx_test.X\src\ff.h	290;"	d	line:290
+FA__DIRTY::0x40	X:\cpanel\mx_test.X\src\ff.h	295;"	d	line:295
+FA__WRITTEN::0x20	X:\cpanel\mx_test.X\src\ff.h	294;"	d	line:294
+FIL	X:\cpanel\mx_test.X\src\ff.h	136;"	t	line:136
+FILESEM	X:\cpanel\mx_test.X\src\ff.c	169;"	t	line:169	file:
+FILINFO	X:\cpanel\mx_test.X\src\ff.h	174;"	t	line:174
+FREE_BUF::	X:\cpanel\mx_test.X\src\ff.c	511;"	d	line:511	file:
+FREE_BUF::	X:\cpanel\mx_test.X\src\ff.c	518;"	d	line:518	file:
+FREE_BUF::	X:\cpanel\mx_test.X\src\ff.c	523;"	d	line:523	file:
+FREE_BUF::ff_memfree(lfn)	X:\cpanel\mx_test.X\src\ff.c	530;"	d	line:530	file:
+FRESULT	X:\cpanel\mx_test.X\src\ff.h	201;"	t	line:201
+FR_DENIED	X:\cpanel\mx_test.X\src\ff.h	188;"	e	line:188
+FR_DISK_ERR	X:\cpanel\mx_test.X\src\ff.h	182;"	e	line:182
+FR_EXIST	X:\cpanel\mx_test.X\src\ff.h	189;"	e	line:189
+FR_INT_ERR	X:\cpanel\mx_test.X\src\ff.h	183;"	e	line:183
+FR_INVALID_DRIVE	X:\cpanel\mx_test.X\src\ff.h	192;"	e	line:192
+FR_INVALID_NAME	X:\cpanel\mx_test.X\src\ff.h	187;"	e	line:187
+FR_INVALID_OBJECT	X:\cpanel\mx_test.X\src\ff.h	190;"	e	line:190
+FR_INVALID_PARAMETER	X:\cpanel\mx_test.X\src\ff.h	200;"	e	line:200
+FR_LOCKED	X:\cpanel\mx_test.X\src\ff.h	197;"	e	line:197
+FR_MKFS_ABORTED	X:\cpanel\mx_test.X\src\ff.h	195;"	e	line:195
+FR_NOT_ENABLED	X:\cpanel\mx_test.X\src\ff.h	193;"	e	line:193
+FR_NOT_ENOUGH_CORE	X:\cpanel\mx_test.X\src\ff.h	198;"	e	line:198
+FR_NOT_READY	X:\cpanel\mx_test.X\src\ff.h	184;"	e	line:184
+FR_NO_FILE	X:\cpanel\mx_test.X\src\ff.h	185;"	e	line:185
+FR_NO_FILESYSTEM	X:\cpanel\mx_test.X\src\ff.h	194;"	e	line:194
+FR_NO_PATH	X:\cpanel\mx_test.X\src\ff.h	186;"	e	line:186
+FR_OK	X:\cpanel\mx_test.X\src\ff.h	181;"	e	line:181
+FR_TIMEOUT	X:\cpanel\mx_test.X\src\ff.h	196;"	e	line:196
+FR_TOO_MANY_OPEN_FILES	X:\cpanel\mx_test.X\src\ff.h	199;"	e	line:199
+FR_WRITE_PROTECTED	X:\cpanel\mx_test.X\src\ff.h	191;"	e	line:191
+FSI_Free_Count::488	X:\cpanel\mx_test.X\src\ff.c	449;"	d	line:449	file:
+FSI_LeadSig::0	X:\cpanel\mx_test.X\src\ff.c	447;"	d	line:447	file:
+FSI_Nxt_Free::492	X:\cpanel\mx_test.X\src\ff.c	450;"	d	line:450	file:
+FSI_StrucSig::484	X:\cpanel\mx_test.X\src\ff.c	448;"	d	line:448	file:
+FS_FAT12::1	X:\cpanel\mx_test.X\src\ff.h	301;"	d	line:301
+FS_FAT16::2	X:\cpanel\mx_test.X\src\ff.h	302;"	d	line:302
+FS_FAT32::3	X:\cpanel\mx_test.X\src\ff.h	303;"	d	line:303
+FatFs	X:\cpanel\mx_test.X\src\ff.c	490;"	v	line:490	file:
+FatFs	X:\cpanel\mx_test.X\test_main.c	103;"	v	line:103
+File	X:\cpanel\mx_test.X\test_main.c	104;"	v	line:104
+Files	X:\cpanel\mx_test.X\src\ff.c	505;"	v	line:505	file:
+Fsid	X:\cpanel\mx_test.X\src\ff.c	496;"	v	line:496	file:
+GET_BLOCK_SIZE::3	X:\cpanel\mx_test.X\src\diskio.h	55;"	d	line:55
+GET_SECTOR_COUNT::1	X:\cpanel\mx_test.X\src\diskio.h	53;"	d	line:53
+GET_SECTOR_SIZE::2	X:\cpanel\mx_test.X\src\diskio.h	54;"	d	line:54
+GREEN_LED::0	X:\cpanel\mx_test.X\mx_test_defs.h	26;"	d	line:26
+H::1	X:\cpanel\mx_test.X\mx_test_defs.h	56;"	d	line:56
+HIGH::(unsignedchar)1	X:\cpanel\mx_test.X\mx_test_defs.h	28;"	d	line:28
+HL::3	X:\cpanel\mx_test.X\mx_test_defs.h	58;"	d	line:58
+INBITS1	X:\cpanel\mx_test.X\mx_test_types.h	44;"	s	line:44
+INBITS2	X:\cpanel\mx_test.X\mx_test_types.h	66;"	s	line:66
+INBITS_TYPE1	X:\cpanel\mx_test.X\mx_test_types.h	53;"	t	line:53
+INBITS_TYPE2	X:\cpanel\mx_test.X\mx_test_types.h	75;"	t	line:75
+INIT_BUF::(dobj)(dobj).fn=sfn	X:\cpanel\mx_test.X\src\ff.c	510;"	d	line:510	file:
+INIT_BUF::(dobj){(dobj).fn=sfn;(dobj).lf	X:\cpanel\mx_test.X\src\ff.c	517;"	d	line:517	file:
+INIT_BUF::(dobj){(dobj).fn=sfn;(dobj).lf	X:\cpanel\mx_test.X\src\ff.c	522;"	d	line:522	file:
+INIT_BUF::(dobj){lfn=ff_memalloc((_MAX_L	X:\cpanel\mx_test.X\src\ff.c	529;"	d	line:529	file:
+INT	X:\cpanel\mx_test.X\src\integer.h	24;"	t	line:24
+INTERRUPT::(CHANGE_INT_ON|CHANGE_INT_PRI_	X:\cpanel\mx_test.X\test_main.c	63;"	d	line:63	file:
+INTTYPES	X:\cpanel\mx_test.X\mx_test_types.h	19;"	d	line:19
+Ibits1	X:\cpanel\mx_test.X\mx_test_types.h	88;"	u	line:88
+Ibits2	X:\cpanel\mx_test.X\mx_test_types.h	98;"	u	line:98
+IsDBCS1::(c)(((BYTE)(c)>=_DF1S&&(BYTE)(	X:\cpanel\mx_test.X\src\ff.c	379;"	d	line:379	file:
+IsDBCS1::(c)((BYTE)(c)>=_DF1S&&(BYTE)(c	X:\cpanel\mx_test.X\src\ff.c	381;"	d	line:381	file:
+IsDBCS1::(c)0	X:\cpanel\mx_test.X\src\ff.c	392;"	d	line:392	file:
+IsDBCS2::(c)(((BYTE)(c)>=_DS1S&&(BYTE)(	X:\cpanel\mx_test.X\src\ff.c	385;"	d	line:385	file:
+IsDBCS2::(c)(((BYTE)(c)>=_DS1S&&(BYTE)(	X:\cpanel\mx_test.X\src\ff.c	387;"	d	line:387	file:
+IsDBCS2::(c)0	X:\cpanel\mx_test.X\src\ff.c	393;"	d	line:393	file:
+IsDigit::(c)(((c)>='0')&&((c)<='9'))	X:\cpanel\mx_test.X\src\ff.c	374;"	d	line:374	file:
+IsLower::(c)(((c)>='a')&&((c)<='z'))	X:\cpanel\mx_test.X\src\ff.c	373;"	d	line:373	file:
+IsUpper::(c)(((c)>='A')&&((c)<='Z'))	X:\cpanel\mx_test.X\src\ff.c	372;"	d	line:372	file:
+L::2	X:\cpanel\mx_test.X\mx_test_defs.h	57;"	d	line:57
+LD2PD::(vol)(BYTE)(vol)	X:\cpanel\mx_test.X\src\ff.h	45;"	d	line:45
+LD2PD::(vol)(VolToPart[vol].pd)	X:\cpanel\mx_test.X\src\ff.h	41;"	d	line:41
+LD2PT::(vol)(VolToPart[vol].pt)	X:\cpanel\mx_test.X\src\ff.h	42;"	d	line:42
+LD2PT::(vol)0	X:\cpanel\mx_test.X\src\ff.h	46;"	d	line:46
+LDIR_Attr::11	X:\cpanel\mx_test.X\src\ff.c	468;"	d	line:468	file:
+LDIR_Chksum::13	X:\cpanel\mx_test.X\src\ff.c	470;"	d	line:470	file:
+LDIR_FstClusLO::26	X:\cpanel\mx_test.X\src\ff.c	471;"	d	line:471	file:
+LDIR_Ord::0	X:\cpanel\mx_test.X\src\ff.c	467;"	d	line:467	file:
+LDIR_Type::12	X:\cpanel\mx_test.X\src\ff.c	469;"	d	line:469	file:
+LD_DWORD::(ptr)(DWORD)(((DWORD)*((BYTE*)	X:\cpanel\mx_test.X\src\ff.h	333;"	d	line:333
+LD_DWORD::(ptr)(DWORD)(*(DWORD*)(BYTE*)(	X:\cpanel\mx_test.X\src\ff.h	328;"	d	line:328
+LD_WORD::(ptr)(WORD)(((WORD)*((BYTE*)(p	X:\cpanel\mx_test.X\src\ff.h	332;"	d	line:332
+LD_WORD::(ptr)(WORD)(*(WORD*)(BYTE*)(pt	X:\cpanel\mx_test.X\src\ff.h	327;"	d	line:327
+LEAVE_FF::(fs,res)returnres	X:\cpanel\mx_test.X\src\ff.c	142;"	d	line:142	file:
+LEAVE_FF::(fs,res){unlock_fs(fs,res);ret	X:\cpanel\mx_test.X\src\ff.c	139;"	d	line:139	file:
+LEDS	X:\cpanel\mx_test.X\blinker.c	3;"	v	line:3	file:
+LED_OFF::LOW	X:\cpanel\mx_test.X\mx_test_defs.h	32;"	d	line:32
+LED_ON::HIGH	X:\cpanel\mx_test.X\mx_test_defs.h	31;"	d	line:31
+LLE::0x40	X:\cpanel\mx_test.X\src\ff.c	473;"	d	line:473	file:
+LONG	X:\cpanel\mx_test.X\src\integer.h	28;"	t	line:28
+LOW::(unsignedchar)0	X:\cpanel\mx_test.X\mx_test_defs.h	27;"	d	line:27
+LfnBuf	X:\cpanel\mx_test.X\src\ff.c	515;"	v	line:515	file:
+LfnOfs	X:\cpanel\mx_test.X\src\ff.c	1303;"	v	line:1303	file:
+MAGIC::0x0003	X:\cpanel\mx_test.X\mx_test_defs.h	14;"	d	line:14
+MAXSTRLEN::512	X:\cpanel\mx_test.X\mx_test_defs.h	23;"	d	line:23
+MAX_SPI_TXFER_SIZE::512	X:\cpanel\mx_test.X\test_main.c	67;"	d	line:67	file:
+MBR_Table::446	X:\cpanel\mx_test.X\src\ff.c	451;"	d	line:451	file:
+MIN_FAT16::4086U	X:\cpanel\mx_test.X\src\ff.c	409;"	d	line:409	file:
+MIN_FAT32::65526U	X:\cpanel\mx_test.X\src\ff.c	410;"	d	line:410	file:
+MIN_SPI_TXFER_SIZE::8	X:\cpanel\mx_test.X\test_main.c	66;"	d	line:66	file:
+MMC::1	X:\cpanel\mx_test.X\src\diskio.c	18;"	d	line:18	file:
+MMC_GET_CID::12	X:\cpanel\mx_test.X\src\diskio.h	67;"	d	line:67
+MMC_GET_CSD::11	X:\cpanel\mx_test.X\src\diskio.h	66;"	d	line:66
+MMC_GET_OCR::13	X:\cpanel\mx_test.X\src\diskio.h	68;"	d	line:68
+MMC_GET_SDSTAT::14	X:\cpanel\mx_test.X\src\diskio.h	69;"	d	line:69
+MMC_GET_TYPE::10	X:\cpanel\mx_test.X\src\diskio.h	65;"	d	line:65
+MMC_disk_initialize	X:\cpanel\mx_test.X\sdspi.c	341;"	f	line:341
+MMC_disk_initialize	X:\cpanel\mx_test.X\sdspi.h	9;"	p	line:9	signature:(void)
+MMC_disk_ioctl	X:\cpanel\mx_test.X\sdspi.c	711;"	f	line:711	signature:(BYTE cmd, void *buff)
+MMC_disk_ioctl	X:\cpanel\mx_test.X\sdspi.h	15;"	p	line:15	signature:(BYTE, void*)
+MMC_disk_read	X:\cpanel\mx_test.X\sdspi.c	502;"	f	line:502	signature:(BYTE* buff, DWORD sector, UINT count)
+MMC_disk_read	X:\cpanel\mx_test.X\sdspi.h	11;"	p	line:11	signature:(BYTE*, DWORD, UINT)
+MMC_disk_status	X:\cpanel\mx_test.X\sdspi.c	419;"	f	line:419	signature:(void)
+MMC_disk_status	X:\cpanel\mx_test.X\sdspi.h	10;"	p	line:10	signature:(void)
+MMC_disk_write	X:\cpanel\mx_test.X\sdspi.c	424;"	f	line:424	signature:(const BYTE* buff, DWORD sector, UINT count)
+MMC_disk_write	X:\cpanel\mx_test.X\sdspi.h	12;"	p	line:12	signature:(const BYTE*, DWORD, UINT)
+MMC_get_volume_info	X:\cpanel\mx_test.X\sdspi.c	285;"	f	line:285	signature:(void)
+MMC_get_volume_info	X:\cpanel\mx_test.X\sdspi.h	19;"	p	line:19	signature:(void)
+MMC_volume_Info	X:\cpanel\mx_test.X\sdspi.c	31;"	v	line:31	file:
+MM_detect	X:\cpanel\mx_test.X\sdspi.c	336;"	f	line:336	signature:(void)
+MM_detect	X:\cpanel\mx_test.X\sdspi.h	14;"	p	line:14	signature:(void)
+MM_state	X:\cpanel\mx_test.X\sdspi.c	331;"	f	line:331	signature:(int flag)
+MM_state	X:\cpanel\mx_test.X\sdspi.h	13;"	p	line:13	signature:(int)
+MX_TEST_DEFS_H	X:\cpanel\mx_test.X\mx_test_defs.h	9;"	d	line:9
+MX_TEST_TYPES_H	X:\cpanel\mx_test.X\mx_test_types.h	9;"	d	line:9
+NDDE::0x05	X:\cpanel\mx_test.X\src\ff.c	475;"	d	line:475	file:
+NO::LOW	X:\cpanel\mx_test.X\mx_test_defs.h	37;"	d	line:37
+NS::11	X:\cpanel\mx_test.X\src\ff.c	399;"	d	line:399	file:
+NS_BODY::0x08	X:\cpanel\mx_test.X\src\ff.c	403;"	d	line:403	file:
+NS_DOT::0x20	X:\cpanel\mx_test.X\src\ff.c	405;"	d	line:405	file:
+NS_EXT::0x10	X:\cpanel\mx_test.X\src\ff.c	404;"	d	line:404	file:
+NS_LAST::0x04	X:\cpanel\mx_test.X\src\ff.c	402;"	d	line:402	file:
+NS_LFN::0x02	X:\cpanel\mx_test.X\src\ff.c	401;"	d	line:401	file:
+NS_LOSS::0x01	X:\cpanel\mx_test.X\src\ff.c	400;"	d	line:400	file:
+NULL0::(unsignedchar)0	X:\cpanel\mx_test.X\mx_test_defs.h	40;"	d	line:40
+NUM_AI_CHAN::10	X:\cpanel\mx_test.X\mx_test_defs.h	100;"	d	line:100
+N_FATS::1	X:\cpanel\mx_test.X\src\ff.c	3970;"	d	line:3970	file:
+N_ROOTDIR::512	X:\cpanel\mx_test.X\src\ff.c	3969;"	d	line:3969	file:
+OFF::HIGH	X:\cpanel\mx_test.X\mx_test_defs.h	30;"	d	line:30
+ON::LOW	X:\cpanel\mx_test.X\mx_test_defs.h	29;"	d	line:29
+OUTBITS1	X:\cpanel\mx_test.X\mx_test_types.h	55;"	s	line:55
+OUTBITS2	X:\cpanel\mx_test.X\mx_test_types.h	77;"	s	line:77
+OUTBITS_TYPE1	X:\cpanel\mx_test.X\mx_test_types.h	64;"	t	line:64
+OUTBITS_TYPE2	X:\cpanel\mx_test.X\mx_test_types.h	86;"	t	line:86
+Obits1	X:\cpanel\mx_test.X\mx_test_types.h	93;"	u	line:93
+Obits2	X:\cpanel\mx_test.X\mx_test_types.h	103;"	u	line:103
+P45K80::	X:\cpanel\mx_test.X\mx_test_defs.h	97;"	d	line:97
+PARTITION	X:\cpanel\mx_test.X\src\ff.h	39;"	t	line:39
+PINS::(CN15_ENABLE)	X:\cpanel\mx_test.X\test_main.c	61;"	d	line:61	file:
+PULLUPS::(CN15_PULLUP_ENABLE)	X:\cpanel\mx_test.X\test_main.c	62;"	d	line:62	file:
+RED_LED::1	X:\cpanel\mx_test.X\mx_test_defs.h	25;"	d	line:25
+RES_ERROR	X:\cpanel\mx_test.X\src\diskio.h	24;"	e	line:24
+RES_NOTRDY	X:\cpanel\mx_test.X\src\diskio.h	26;"	e	line:26
+RES_OK	X:\cpanel\mx_test.X\src\diskio.h	23;"	e	line:23
+RES_PARERR	X:\cpanel\mx_test.X\src\diskio.h	27;"	e	line:27
+RES_WRPRT	X:\cpanel\mx_test.X\src\diskio.h	25;"	e	line:25
+RTC_Init	X:\cpanel\mx_test.X\sdspi.c	839;"	f	line:839
+RTC_Init	X:\cpanel\mx_test.X\sdspi.h	18;"	p	line:18	signature:()
+R_OFF::HIGH	X:\cpanel\mx_test.X\mx_test_defs.h	36;"	d	line:36
+R_ON::LOW	X:\cpanel\mx_test.X\mx_test_defs.h	35;"	d	line:35
+ReadCoreTimer	X:\cpanel\mx_test.X\test_main.c	175;"	p	line:175	file:
+S1	X:\cpanel\mx_test.X\test_main.c	159;"	l	line:159
+S1_p	X:\cpanel\mx_test.X\test_main.c	159;"	l	line:159
+SDBUFFERSIZE::512l	X:\cpanel\mx_test.X\mx_test_defs.h	20;"	d	line:20
+SDC0	X:\cpanel\mx_test.X\sdspi.c	34;"	v	line:34	file:
+SDCARD	X:\cpanel\mx_test.X\mx_test_types.h	39;"	s	line:39
+SDCARD_CHAN::SPI_CHANNEL1	X:\cpanel\mx_test.X\sdspi.c	17;"	d	line:17	file:
+SDCARD_TYPE	X:\cpanel\mx_test.X\mx_test_types.h	42;"	t	line:42
+SDEBUGM::(msg)	X:\cpanel\mx_test.X\sdspi.c	13;"	d	line:13	file:
+SDEBUGM::(msg)P2wait;TXREG2=msg	X:\cpanel\mx_test.X\sdspi.c	11;"	d	line:11	file:
+SDEV1	X:\cpanel\mx_test.X\mx_test_types.h	108;"	s	line:108
+SDEV2	X:\cpanel\mx_test.X\mx_test_types.h	115;"	s	line:115
+SDEV_TYPE1	X:\cpanel\mx_test.X\mx_test_types.h	113;"	t	line:113
+SDEV_TYPE2	X:\cpanel\mx_test.X\mx_test_types.h	120;"	t	line:120
+SDNAME_SIZE::6	X:\cpanel\mx_test.X\mx_test_defs.h	22;"	d	line:22
+SDPOWER::	X:\cpanel\mx_test.X\mx_test_defs.h	17;"	d	line:17
+SDSPEED::0	X:\cpanel\mx_test.X\mx_test_defs.h	16;"	d	line:16
+SDSPI_H_INCLUDED	X:\cpanel\mx_test.X\sdspi.h	2;"	d	line:2
+SDT1::1	X:\cpanel\mx_test.X\mx_test_defs.h	60;"	d	line:60
+SDT2::2	X:\cpanel\mx_test.X\mx_test_defs.h	61;"	d	line:61
+SDT6::6	X:\cpanel\mx_test.X\mx_test_defs.h	62;"	d	line:62
+SD_NOTRDY	X:\cpanel\mx_test.X\sdspi.c	32;"	v	line:32	file:
+SD_VOLUME_INFO	X:\cpanel\mx_test.X\mx_test_types.h	32;"	s	line:32
+SHIFT16::16	X:\cpanel\mx_test.X\mx_test_defs.h	49;"	d	line:49
+SHIFT1::1	X:\cpanel\mx_test.X\mx_test_defs.h	42;"	d	line:42
+SHIFT24::24	X:\cpanel\mx_test.X\mx_test_defs.h	50;"	d	line:50
+SHIFT2::2	X:\cpanel\mx_test.X\mx_test_defs.h	43;"	d	line:43
+SHIFT30::30	X:\cpanel\mx_test.X\mx_test_defs.h	51;"	d	line:51
+SHIFT4::4	X:\cpanel\mx_test.X\mx_test_defs.h	44;"	d	line:44
+SHIFT6::5	X:\cpanel\mx_test.X\mx_test_defs.h	45;"	d	line:45
+SHIFT7::7	X:\cpanel\mx_test.X\mx_test_defs.h	46;"	d	line:46
+SHIFT8::8	X:\cpanel\mx_test.X\mx_test_defs.h	47;"	d	line:47
+SHIFT9::9	X:\cpanel\mx_test.X\mx_test_defs.h	48;"	d	line:48
+SHORT	X:\cpanel\mx_test.X\src\integer.h	19;"	t	line:19
+SPI_CMD_DUMMY::0b00000000	X:\cpanel\mx_test.X\mx_test_defs.h	105;"	d	line:105
+SPI_CMD_RW::0b11110000	X:\cpanel\mx_test.X\mx_test_defs.h	103;"	d	line:103
+SPI_CMD_R_ONLY::0b11110001	X:\cpanel\mx_test.X\mx_test_defs.h	104;"	d	line:104
+SPI_CS::0	X:\cpanel\mx_test.X\mx_test_defs.h	18;"	d	line:18
+SS::(fs)((UINT)_MIN_SS)	X:\cpanel\mx_test.X\src\ff.c	153;"	d	line:153	file:
+SS::(fs)((fs)->ssize)	X:\cpanel\mx_test.X\src\ff.c	155;"	d	line:155	file:
+STA_NODISK::0x02	X:\cpanel\mx_test.X\src\diskio.h	45;"	d	line:45
+STA_NOINIT::0x01	X:\cpanel\mx_test.X\src\diskio.h	44;"	d	line:44
+STA_PROTECT::0x04	X:\cpanel\mx_test.X\src\diskio.h	46;"	d	line:46
+ST_DWORD::(ptr,val)*(BYTE*)(ptr)=(BYTE)(	X:\cpanel\mx_test.X\src\ff.h	335;"	d	line:335
+ST_DWORD::(ptr,val)*(DWORD*)(BYTE*)(ptr)	X:\cpanel\mx_test.X\src\ff.h	330;"	d	line:330
+ST_WORD::(ptr,val)*(BYTE*)(ptr)=(BYTE)(	X:\cpanel\mx_test.X\src\ff.h	334;"	d	line:334
+ST_WORD::(ptr,val)*(WORD*)(BYTE*)(ptr)=	X:\cpanel\mx_test.X\src\ff.h	329;"	d	line:329
+SYS_FREQ::(50000000L)	X:\cpanel\mx_test.X\test_main.c	64;"	d	line:64	file:
+SZ_DIR::32	X:\cpanel\mx_test.X\src\ff.c	472;"	d	line:472	file:
+SZ_PTE::16	X:\cpanel\mx_test.X\src\ff.c	452;"	d	line:452	file:
+S_OFF::HIGH	X:\cpanel\mx_test.X\mx_test_defs.h	34;"	d	line:34
+S_ON::LOW	X:\cpanel\mx_test.X\mx_test_defs.h	33;"	d	line:33
+Show_MMC_Info	X:\cpanel\mx_test.X\test_main.c	125;"	f	line:125	signature:(void)
+SpiADCRead	X:\cpanel\mx_test.X\sdspi.c	623;"	f	line:623	signature:(unsigned char channel)
+SpiADCRead	X:\cpanel\mx_test.X\sdspi.h	34;"	p	line:34	signature:(unsigned char)
+SpiIOPoll	X:\cpanel\mx_test.X\sdspi.c	609;"	f	line:609	signature:(unsigned int lamp)
+SpiIOPoll	X:\cpanel\mx_test.X\sdspi.h	33;"	p	line:33	signature:(unsigned int)
+SpiInitDevice1	X:\cpanel\mx_test.X\sdspi.c	689;"	f	line:689	signature:(SpiChannel chn, int speed)
+SpiInitDevice2	X:\cpanel\mx_test.X\sdspi.c	696;"	f	line:696	signature:(SpiChannel chn, int speed)
+SpiPortWrite	X:\cpanel\mx_test.X\sdspi.c	636;"	f	line:636	signature:(unsigned char data)
+SpiPortWrite	X:\cpanel\mx_test.X\sdspi.h	32;"	p	line:32	signature:(unsigned char)
+SpiSerialGetChar	X:\cpanel\mx_test.X\sdspi.c	674;"	f	line:674	signature:(void)
+SpiSerialGetChar	X:\cpanel\mx_test.X\sdspi.h	36;"	p	line:36	signature:(void)
+SpiSerialReadOk	X:\cpanel\mx_test.X\sdspi.c	656;"	f	line:656	signature:(void)
+SpiSerialReadOk	X:\cpanel\mx_test.X\sdspi.h	30;"	p	line:30	signature:(void)
+SpiSerialReadReady	X:\cpanel\mx_test.X\sdspi.c	666;"	f	line:666	signature:(void)
+SpiSerialReadReady	X:\cpanel\mx_test.X\sdspi.h	29;"	p	line:29	signature:(void)
+SpiSerialWrite	X:\cpanel\mx_test.X\sdspi.c	646;"	f	line:646	signature:(unsigned char data)
+SpiSerialWrite	X:\cpanel\mx_test.X\sdspi.h	31;"	p	line:31	signature:(unsigned char)
+SpiStatus	X:\cpanel\mx_test.X\sdspi.c	681;"	f	line:681	signature:(void)
+SpiStringWrite	X:\cpanel\mx_test.X\sdspi.c	580;"	f	line:580	signature:(char* data)
+SpiStringWrite	X:\cpanel\mx_test.X\sdspi.h	35;"	p	line:35	signature:(char*)
+TCHAR	X:\cpanel\mx_test.X\src\ff.h	59;"	t	line:59
+TCHAR	X:\cpanel\mx_test.X\src\ff.h	66;"	t	line:66
+Timer1	X:\cpanel\mx_test.X\mx_test_types.h	126;"	m	line:126	struct:V_data
+Timer2	X:\cpanel\mx_test.X\mx_test_types.h	126;"	m	line:126	struct:V_data
+Timer3	X:\cpanel\mx_test.X\mx_test_types.h	126;"	m	line:126	struct:V_data
+Timer4	X:\cpanel\mx_test.X\mx_test_types.h	126;"	m	line:126	struct:V_data
+TimerBlinkHandler	X:\cpanel\mx_test.X\blinker.c	68;"	f	line:68	signature:(void)
+TimerRTCHandler	X:\cpanel\mx_test.X\sdspi.c	848;"	f	line:848	signature:(void)
+UART_DUMMY_MASK::0b01000000	X:\cpanel\mx_test.X\mx_test_defs.h	94;"	d	line:94
+UINT	X:\cpanel\mx_test.X\src\integer.h	25;"	t	line:25
+USB::2	X:\cpanel\mx_test.X\src\diskio.c	19;"	d	line:19	file:
+V	X:\cpanel\mx_test.X\test_main.c	99;"	v	line:99
+VOLUME_INFO_TYPE	X:\cpanel\mx_test.X\mx_test_types.h	37;"	t	line:37
+V_data	X:\cpanel\mx_test.X\mx_test_types.h	122;"	s	line:122
+V_data	X:\cpanel\mx_test.X\mx_test_types.h	128;"	t	line:128
+Vcal0	X:\cpanel\mx_test.X\test_main.c	163;"	l	line:163
+Vval	X:\cpanel\mx_test.X\test_main.c	163;"	l	line:163
+WCHAR	X:\cpanel\mx_test.X\src\integer.h	21;"	t	line:21
+WORD	X:\cpanel\mx_test.X\src\integer.h	20;"	t	line:20
+XOFF::0x13	X:\cpanel\mx_test.X\mx_test_defs.h	55;"	d	line:55
+XON::0x11	X:\cpanel\mx_test.X\mx_test_defs.h	54;"	d	line:54
+YES::HIGH	X:\cpanel\mx_test.X\mx_test_defs.h	38;"	d	line:38
+_CODE_PAGE::437	X:\cpanel\mx_test.X\src\ffconf.h	60;"	d	line:60
+_DF1E::0x9F	X:\cpanel\mx_test.X\src\ff.c	178;"	d	line:178	file:
+_DF1E::0xFE	X:\cpanel\mx_test.X\src\ff.c	188;"	d	line:188	file:
+_DF1E::0xFE	X:\cpanel\mx_test.X\src\ff.c	196;"	d	line:196	file:
+_DF1E::0xFE	X:\cpanel\mx_test.X\src\ff.c	206;"	d	line:206	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	213;"	d	line:213	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	220;"	d	line:220	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	227;"	d	line:227	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	234;"	d	line:234	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	241;"	d	line:241	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	248;"	d	line:248	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	255;"	d	line:255	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	262;"	d	line:262	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	269;"	d	line:269	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	276;"	d	line:276	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	283;"	d	line:283	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	290;"	d	line:290	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	297;"	d	line:297	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	304;"	d	line:304	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	311;"	d	line:311	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	318;"	d	line:318	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	325;"	d	line:325	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	332;"	d	line:332	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	339;"	d	line:339	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	346;"	d	line:346	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	353;"	d	line:353	file:
+_DF1S::0	X:\cpanel\mx_test.X\src\ff.c	363;"	d	line:363	file:
+_DF1S::0x81	X:\cpanel\mx_test.X\src\ff.c	177;"	d	line:177	file:
+_DF1S::0x81	X:\cpanel\mx_test.X\src\ff.c	187;"	d	line:187	file:
+_DF1S::0x81	X:\cpanel\mx_test.X\src\ff.c	195;"	d	line:195	file:
+_DF1S::0x81	X:\cpanel\mx_test.X\src\ff.c	205;"	d	line:205	file:
+_DF2E::0xFC	X:\cpanel\mx_test.X\src\ff.c	180;"	d	line:180	file:
+_DF2S::0xE0	X:\cpanel\mx_test.X\src\ff.c	179;"	d	line:179	file:
+_DISABLE_OPENADC10_CONFIGPORT_WARNING	X:\cpanel\mx_test.X\mx_test.h	9;"	d	line:9
+_DISKIO_DEFINED	X:\cpanel\mx_test.X\src\diskio.h	6;"	d	line:6
+_DS1E::0x5A	X:\cpanel\mx_test.X\src\ff.c	198;"	d	line:198	file:
+_DS1E::0x7E	X:\cpanel\mx_test.X\src\ff.c	182;"	d	line:182	file:
+_DS1E::0x7E	X:\cpanel\mx_test.X\src\ff.c	190;"	d	line:190	file:
+_DS1E::0x7E	X:\cpanel\mx_test.X\src\ff.c	208;"	d	line:208	file:
+_DS1S::0x40	X:\cpanel\mx_test.X\src\ff.c	181;"	d	line:181	file:
+_DS1S::0x40	X:\cpanel\mx_test.X\src\ff.c	189;"	d	line:189	file:
+_DS1S::0x40	X:\cpanel\mx_test.X\src\ff.c	207;"	d	line:207	file:
+_DS1S::0x41	X:\cpanel\mx_test.X\src\ff.c	197;"	d	line:197	file:
+_DS2E::0x7A	X:\cpanel\mx_test.X\src\ff.c	200;"	d	line:200	file:
+_DS2E::0xFC	X:\cpanel\mx_test.X\src\ff.c	184;"	d	line:184	file:
+_DS2E::0xFE	X:\cpanel\mx_test.X\src\ff.c	192;"	d	line:192	file:
+_DS2E::0xFE	X:\cpanel\mx_test.X\src\ff.c	210;"	d	line:210	file:
+_DS2S::0x61	X:\cpanel\mx_test.X\src\ff.c	199;"	d	line:199	file:
+_DS2S::0x80	X:\cpanel\mx_test.X\src\ff.c	183;"	d	line:183	file:
+_DS2S::0x80	X:\cpanel\mx_test.X\src\ff.c	191;"	d	line:191	file:
+_DS2S::0xA1	X:\cpanel\mx_test.X\src\ff.c	209;"	d	line:209	file:
+_DS3E::0xFE	X:\cpanel\mx_test.X\src\ff.c	202;"	d	line:202	file:
+_DS3S::0x81	X:\cpanel\mx_test.X\src\ff.c	201;"	d	line:201	file:
+_EXCVT::{0x80,0x81,0x45,0x41,0x84,0x41	X:\cpanel\mx_test.X\src\ff.c	224;"	d	line:224	file:
+_EXCVT::{0x80,0x81,0x82,0x82,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	308;"	d	line:308	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	231;"	d	line:231	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	280;"	d	line:280	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	287;"	d	line:287	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	294;"	d	line:294	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	301;"	d	line:301	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	315;"	d	line:315	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	322;"	d	line:322	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	329;"	d	line:329	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	336;"	d	line:336	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	343;"	d	line:343	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	350;"	d	line:350	file:
+_EXCVT::{0x80,0x81,0x82,0x83,0x84,0x85	X:\cpanel\mx_test.X\src\ff.c	357;"	d	line:357	file:
+_EXCVT::{0x80,0x9A,0x90,0x41,0x8E,0x41	X:\cpanel\mx_test.X\src\ff.c	217;"	d	line:217	file:
+_EXCVT::{0x80,0x9A,0x90,0xB6,0x8E,0xB7	X:\cpanel\mx_test.X\src\ff.c	245;"	d	line:245	file:
+_EXCVT::{0x80,0x9A,0x90,0xB6,0x8E,0xB7	X:\cpanel\mx_test.X\src\ff.c	266;"	d	line:266	file:
+_EXCVT::{0x80,0x9A,0x90,0xB6,0x8E,0xB7	X:\cpanel\mx_test.X\src\ff.c	273;"	d	line:273	file:
+_EXCVT::{0x80,0x9A,0x90,0xB6,0x8E,0xDE	X:\cpanel\mx_test.X\src\ff.c	252;"	d	line:252	file:
+_EXCVT::{0x80,0x9A,0x91,0xA0,0x8E,0x95	X:\cpanel\mx_test.X\src\ff.c	238;"	d	line:238	file:
+_EXCVT::{0x81,0x81,0x83,0x83,0x85,0x85	X:\cpanel\mx_test.X\src\ff.c	259;"	d	line:259	file:
+_FATFS::29000	X:\cpanel\mx_test.X\src\ff.h	18;"	d	line:18
+_FFCONF::29000	X:\cpanel\mx_test.X\src\ffconf.h	6;"	d	line:6
+_FF_INTEGER	X:\cpanel\mx_test.X\src\integer.h	6;"	d	line:6
+_FS_LOCK::0	X:\cpanel\mx_test.X\src\ffconf.h	200;"	d	line:200
+_FS_MINIMIZE::0	X:\cpanel\mx_test.X\src\ffconf.h	26;"	d	line:26
+_FS_NOFSINFO::0	X:\cpanel\mx_test.X\src\ffconf.h	168;"	d	line:168
+_FS_READONLY::0	X:\cpanel\mx_test.X\src\ffconf.h	20;"	d	line:20
+_FS_REENTRANT::0	X:\cpanel\mx_test.X\src\ffconf.h	206;"	d	line:206
+_FS_RPATH::0	X:\cpanel\mx_test.X\src\ffconf.h	121;"	d	line:121
+_FS_TIMEOUT::1000	X:\cpanel\mx_test.X\src\ffconf.h	207;"	d	line:207
+_FS_TINY::0	X:\cpanel\mx_test.X\src\ffconf.h	13;"	d	line:13
+_LFN_UNICODE::0	X:\cpanel\mx_test.X\src\ffconf.h	109;"	d	line:109
+_MAX_LFN::255	X:\cpanel\mx_test.X\src\ffconf.h	93;"	d	line:93
+_MAX_SS::512	X:\cpanel\mx_test.X\src\ffconf.h	155;"	d	line:155
+_MIN_SS::512	X:\cpanel\mx_test.X\src\ffconf.h	154;"	d	line:154
+_MULTI_PARTITION::0	X:\cpanel\mx_test.X\src\ffconf.h	147;"	d	line:147
+_STRF_ENCODE::3	X:\cpanel\mx_test.X\src\ffconf.h	115;"	d	line:115
+_STR_VOLUME_ID::0	X:\cpanel\mx_test.X\src\ffconf.h	139;"	d	line:139
+_SUPPRESS_PLIB_WARNING::1	X:\cpanel\mx_test.X\mx_test.h	8;"	d	line:8
+_SYNC_t::HANDLE	X:\cpanel\mx_test.X\src\ffconf.h	208;"	d	line:208
+_T::(x)L##x	X:\cpanel\mx_test.X\src\ff.h	60;"	d	line:60
+_T::(x)x	X:\cpanel\mx_test.X\src\ff.h	67;"	d	line:67
+_TEXT::(x)L##x	X:\cpanel\mx_test.X\src\ff.h	61;"	d	line:61
+_TEXT::(x)x	X:\cpanel\mx_test.X\src\ff.h	68;"	d	line:68
+_USE_ERASE::0	X:\cpanel\mx_test.X\src\ffconf.h	163;"	d	line:163
+_USE_FASTSEEK::0	X:\cpanel\mx_test.X\src\ffconf.h	44;"	d	line:44
+_USE_FORWARD::0	X:\cpanel\mx_test.X\src\ffconf.h	52;"	d	line:52
+_USE_IOCTL::1	X:\cpanel\mx_test.X\src\diskio.h	13;"	d	line:13
+_USE_LABEL::1	X:\cpanel\mx_test.X\src\ffconf.h	48;"	d	line:48
+_USE_LFN::0	X:\cpanel\mx_test.X\src\ffconf.h	92;"	d	line:92
+_USE_MKFS::1	X:\cpanel\mx_test.X\src\ffconf.h	40;"	d	line:40
+_USE_STRFUNC::2	X:\cpanel\mx_test.X\src\ffconf.h	36;"	d	line:36
+_USE_WRITE::1	X:\cpanel\mx_test.X\src\diskio.h	12;"	d	line:12
+_VOLUMES::8	X:\cpanel\mx_test.X\src\ffconf.h	135;"	d	line:135
+_VOLUME_STRS::"RAM","NAND","CF","SD1","SD2",	X:\cpanel\mx_test.X\src\ffconf.h	140;"	d	line:140
+_WORD_ACCESS::0	X:\cpanel\mx_test.X\src\ffconf.h	185;"	d	line:185
+a	X:\cpanel\mx_test.X\src\ff.c	1495;"	l	line:1495
+a	X:\cpanel\mx_test.X\src\ff.c	1555;"	l	line:1555
+a	X:\cpanel\mx_test.X\test_main.c	157;"	l	line:157
+adc_count	X:\cpanel\mx_test.X\mx_test_types.h	124;"	m	line:124	struct:V_data
+adc_data	X:\cpanel\mx_test.X\mx_test_types.h	110;"	m	line:110	struct:SDEV1
+adc_data	X:\cpanel\mx_test.X\mx_test_types.h	117;"	m	line:117	struct:SDEV2
+arp	X:\cpanel\mx_test.X\src\ff.c	4493;"	l	line:4493
+b	X:\cpanel\mx_test.X\src\ff.c	1809;"	l	line:1809
+b0	X:\cpanel\mx_test.X\mx_test_types.h	56;"	m	line:56	struct:OUTBITS1
+b0	X:\cpanel\mx_test.X\mx_test_types.h	78;"	m	line:78	struct:OUTBITS2
+b1	X:\cpanel\mx_test.X\mx_test_types.h	46;"	m	line:46	struct:INBITS1
+b1	X:\cpanel\mx_test.X\mx_test_types.h	57;"	m	line:57	struct:OUTBITS1
+b1	X:\cpanel\mx_test.X\mx_test_types.h	68;"	m	line:68	struct:INBITS2
+b1	X:\cpanel\mx_test.X\mx_test_types.h	79;"	m	line:79	struct:OUTBITS2
+b2	X:\cpanel\mx_test.X\mx_test_types.h	47;"	m	line:47	struct:INBITS1
+b2	X:\cpanel\mx_test.X\mx_test_types.h	69;"	m	line:69	struct:INBITS2
+b2	X:\cpanel\mx_test.X\mx_test_types.h	80;"	m	line:80	struct:OUTBITS2
+b3	X:\cpanel\mx_test.X\mx_test_types.h	48;"	m	line:48	struct:INBITS1
+b3	X:\cpanel\mx_test.X\mx_test_types.h	59;"	m	line:59	struct:OUTBITS1
+b3	X:\cpanel\mx_test.X\mx_test_types.h	70;"	m	line:70	struct:INBITS2
+b3	X:\cpanel\mx_test.X\mx_test_types.h	81;"	m	line:81	struct:OUTBITS2
+b4	X:\cpanel\mx_test.X\mx_test_types.h	49;"	m	line:49	struct:INBITS1
+b4	X:\cpanel\mx_test.X\mx_test_types.h	60;"	m	line:60	struct:OUTBITS1
+b4	X:\cpanel\mx_test.X\mx_test_types.h	71;"	m	line:71	struct:INBITS2
+b4	X:\cpanel\mx_test.X\mx_test_types.h	82;"	m	line:82	struct:OUTBITS2
+b5	X:\cpanel\mx_test.X\mx_test_types.h	61;"	m	line:61	struct:OUTBITS1
+b5	X:\cpanel\mx_test.X\mx_test_types.h	72;"	m	line:72	struct:INBITS2
+b5	X:\cpanel\mx_test.X\mx_test_types.h	83;"	m	line:83	struct:OUTBITS2
+b6	X:\cpanel\mx_test.X\mx_test_types.h	51;"	m	line:51	struct:INBITS1
+b6	X:\cpanel\mx_test.X\mx_test_types.h	62;"	m	line:62	struct:OUTBITS1
+b6	X:\cpanel\mx_test.X\mx_test_types.h	73;"	m	line:73	struct:INBITS2
+b6	X:\cpanel\mx_test.X\mx_test_types.h	84;"	m	line:84	struct:OUTBITS2
+b7	X:\cpanel\mx_test.X\mx_test_types.h	52;"	m	line:52	struct:INBITS1
+b7	X:\cpanel\mx_test.X\mx_test_types.h	63;"	m	line:63	struct:OUTBITS1
+b7	X:\cpanel\mx_test.X\mx_test_types.h	74;"	m	line:74	struct:INBITS2
+b7	X:\cpanel\mx_test.X\mx_test_types.h	85;"	m	line:85	struct:OUTBITS2
+b_cyl	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+b_data	X:\cpanel\mx_test.X\src\ff.c	3985;"	l	line:3985
+b_dir	X:\cpanel\mx_test.X\src\ff.c	3985;"	l	line:3985
+b_fat	X:\cpanel\mx_test.X\src\ff.c	3985;"	l	line:3985
+b_vol	X:\cpanel\mx_test.X\src\ff.c	3985;"	l	line:3985
+bc	X:\cpanel\mx_test.X\src\ff.c	868;"	l	line:868
+bc	X:\cpanel\mx_test.X\src\ff.c	915;"	l	line:915
+bcs	X:\cpanel\mx_test.X\src\ff.c	3063;"	l	line:3063
+be	X:\cpanel\mx_test.X\src\ff.c	647;"	l	line:647
+blink	X:\cpanel\mx_test.X\mx_test_types.h	125;"	m	line:125	struct:V_data
+blink_alt	X:\cpanel\mx_test.X\mx_test_types.h	125;"	m	line:125	struct:V_data
+blink_count	X:\cpanel\mx_test.X\mx_test_types.h	124;"	m	line:124	struct:V_data
+blink_led	X:\cpanel\mx_test.X\blinker.c	5;"	f	line:5	signature:(uint8_t led, uint8_t on_led, uint8_t start)
+blink_led	X:\cpanel\mx_test.X\blinker.h	15;"	p	line:15	signature:(uint8_t, uint8_t, uint8_t)
+blink_led_alt	X:\cpanel\mx_test.X\blinker.c	30;"	f	line:30	signature:(uint8_t alt)
+blink_led_alt	X:\cpanel\mx_test.X\blinker.h	16;"	p	line:16	signature:(uint8_t)
+blink_out	X:\cpanel\mx_test.X\mx_test_types.h	125;"	m	line:125	struct:V_data
+block_tmp	X:\cpanel\mx_test.X\sdspi.c	438;"	l	line:438	file:
+block_tmp	X:\cpanel\mx_test.X\sdspi.c	518;"	l	line:518	file:
+br	X:\cpanel\mx_test.X\src\ff.c	2216;"	l	line:2216
+bsect	X:\cpanel\mx_test.X\src\ff.c	2171;"	l	line:2171
+buf	X:\cpanel\mx_test.X\src\ff.c	3673;"	l	line:3673
+buf	X:\cpanel\mx_test.X\src\ff.c	4225;"	l	line:4225
+buf	X:\cpanel\mx_test.X\src\ff.c	4372;"	m	line:4372	file:
+buf	X:\cpanel\mx_test.X\src\ff.h	134;"	m	line:134
+bw	X:\cpanel\mx_test.X\src\ff.c	4382;"	l	line:4382
+c	X:\cpanel\mx_test.X\src\ff.c	1190;"	l	line:1190
+c	X:\cpanel\mx_test.X\src\ff.c	1416;"	l	line:1416
+c	X:\cpanel\mx_test.X\src\ff.c	1493;"	l	line:1493
+c	X:\cpanel\mx_test.X\src\ff.c	1555;"	l	line:1555
+c	X:\cpanel\mx_test.X\src\ff.c	1739;"	l	line:1739
+c	X:\cpanel\mx_test.X\src\ff.c	2098;"	l	line:2098
+c	X:\cpanel\mx_test.X\src\ff.c	4298;"	l	line:4298
+c	X:\cpanel\mx_test.X\src\ff.c	4497;"	l	line:4497
+card_count	X:\cpanel\mx_test.X\mx_test_types.h	123;"	m	line:123	struct:V_data
+card_detect	X:\cpanel\mx_test.X\mx_test_types.h	50;"	m	line:50	struct:INBITS1
+cc	X:\cpanel\mx_test.X\src\ff.c	2557;"	l	line:2557
+cc	X:\cpanel\mx_test.X\src\ff.c	2658;"	l	line:2658
+ccl	X:\cpanel\mx_test.X\src\ff.c	2916;"	l	line:2916
+cdir	X:\cpanel\mx_test.X\src\ff.h	97;"	m	line:97
+cf	X:\cpanel\mx_test.X\src\ff.c	1809;"	l	line:1809
+cfs	X:\cpanel\mx_test.X\src\ff.c	2372;"	l	line:2372
+chan_no	X:\cpanel\mx_test.X\mx_test_types.h	110;"	m	line:110	struct:SDEV1
+chan_no	X:\cpanel\mx_test.X\mx_test_types.h	117;"	m	line:117	struct:SDEV2
+char_count	X:\cpanel\mx_test.X\mx_test_types.h	123;"	m	line:123	struct:V_data
+char_ready	X:\cpanel\mx_test.X\mx_test_types.h	110;"	m	line:110	struct:SDEV1
+char_ready	X:\cpanel\mx_test.X\mx_test_types.h	117;"	m	line:117	struct:SDEV2
+check_fs	X:\cpanel\mx_test.X\src\ff.c	2134;"	f	line:2134	file:	signature:( FATFS* fs, DWORD sect )
+chk_chr	X:\cpanel\mx_test.X\src\ff.c	596;"	f	line:596	file:	signature:(const char* str, int chr)
+chk_lock	X:\cpanel\mx_test.X\src\ff.c	642;"	f	line:642	file:	signature:( DIR* dp, int acc )
+cid	X:\cpanel\mx_test.X\sdspi.c	30;"	v	line:30	file:
+cl	X:\cpanel\mx_test.X\src\ff.c	1092;"	l	line:1092
+cl	X:\cpanel\mx_test.X\src\ff.c	1273;"	l	line:1273
+cl	X:\cpanel\mx_test.X\src\ff.c	2451;"	l	line:2451
+cl	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+clear_lock	X:\cpanel\mx_test.X\src\ff.c	733;"	f	line:733	file:	signature:( FATFS *fs )
+clmt_clust	X:\cpanel\mx_test.X\src\ff.c	1087;"	f	line:1087	file:	signature:( FIL* fp, DWORD ofs )
+clst	X:\cpanel\mx_test.X\src\ff.c	1120;"	l	line:1120
+clst	X:\cpanel\mx_test.X\src\ff.c	1168;"	l	line:1168
+clst	X:\cpanel\mx_test.X\src\ff.c	2556;"	l	line:2556
+clst	X:\cpanel\mx_test.X\src\ff.c	2657;"	l	line:2657
+clst	X:\cpanel\mx_test.X\src\ff.c	3063;"	l	line:3063
+clst	X:\cpanel\mx_test.X\src\ff.c	3322;"	l	line:3322
+clst	X:\cpanel\mx_test.X\src\ff.c	3918;"	l	line:3918
+cltbl	X:\cpanel\mx_test.X\src\ff.h	128;"	m	line:128
+clu	X:\cpanel\mx_test.X\src\ff.c	166;"	m	line:166	file:
+clust	X:\cpanel\mx_test.X\src\ff.h	121;"	m	line:121
+clust	X:\cpanel\mx_test.X\src\ff.h	147;"	m	line:147
+clust2sect	X:\cpanel\mx_test.X\src\ff.c	845;"	f	line:845	signature:( FATFS* fs, DWORD clst )
+cmd	X:\cpanel\mx_test.X\sdspi.c	343;"	l	line:343	file:
+cmd_data	X:\cpanel\mx_test.X\sdspi.c	32;"	v	line:32	file:
+cmd_response_char	X:\cpanel\mx_test.X\sdspi.c	33;"	v	line:33	file:
+cmd_response_port	X:\cpanel\mx_test.X\sdspi.c	33;"	v	line:33	file:
+cmp_lfn	X:\cpanel\mx_test.X\src\ff.c	1307;"	f	line:1307	file:	signature:( WCHAR* lfnbuf, BYTE* dir )
+comm_buffer	X:\cpanel\mx_test.X\test_main.c	127;"	l	line:127
+comm_buffer	X:\cpanel\mx_test.X\test_main.c	160;"	l	line:160
+config	X:\cpanel\mx_test.X\mx_test_types.h	109;"	m	line:109	struct:SDEV1
+config	X:\cpanel\mx_test.X\mx_test_types.h	116;"	m	line:116	struct:SDEV2
+crc	X:\cpanel\mx_test.X\sdspi.c	137;"	l	line:137	file:
+create_chain	X:\cpanel\mx_test.X\src\ff.c	1025;"	f	line:1025	file:	signature:( FATFS* fs, DWORD clst )
+create_name	X:\cpanel\mx_test.X\src\ff.c	1803;"	f	line:1803	file:	signature:( DIR* dp, const TCHAR** path )
+cs	X:\cpanel\mx_test.X\src\ff.c	1030;"	l	line:1030
+csd	X:\cpanel\mx_test.X\sdspi.c	30;"	v	line:30	file:
+csect	X:\cpanel\mx_test.X\src\ff.c	2558;"	l	line:2558
+csect	X:\cpanel\mx_test.X\src\ff.c	2660;"	l	line:2660
+csect	X:\cpanel\mx_test.X\src\ff.c	3920;"	l	line:3920
+csize	X:\cpanel\mx_test.X\src\ff.h	80;"	m	line:80
+cst	X:\cpanel\mx_test.X\src\ff.c	3980;"	l	line:3980	file:
+csz	X:\cpanel\mx_test.X\sdspi.c	715;"	l	line:715
+ctr	X:\cpanel\mx_test.X\src\ff.c	168;"	m	line:168	file:
+current_time	X:\cpanel\mx_test.X\sdspi.c	29;"	v	line:29	file:
+d	X:\cpanel\mx_test.X\sdspi.c	49;"	l	line:49
+d	X:\cpanel\mx_test.X\src\ff.c	4497;"	l	line:4497
+d	X:\cpanel\mx_test.X\src\ff.c	561;"	l	line:561
+d	X:\cpanel\mx_test.X\src\ff.c	578;"	l	line:578
+d	X:\cpanel\mx_test.X\src\ff.c	587;"	l	line:587
+data_count	X:\cpanel\mx_test.X\mx_test_types.h	124;"	m	line:124	struct:V_data
+data_mix	X:\cpanel\mx_test.X\test_main.c	158;"	l	line:158
+data_mix_old	X:\cpanel\mx_test.X\test_main.c	158;"	l	line:158
+database	X:\cpanel\mx_test.X\src\ff.h	104;"	m	line:104
+dcl	X:\cpanel\mx_test.X\src\ff.c	3514;"	l	line:3514
+dclst	X:\cpanel\mx_test.X\src\ff.c	3444;"	l	line:3444
+dec_lock	X:\cpanel\mx_test.X\src\ff.c	710;"	f	line:710	file:	signature:( UINT i )
+di	X:\cpanel\mx_test.X\src\ff.c	1811;"	l	line:1811
+dir	X:\cpanel\mx_test.X\src\ff.c	1493;"	l	line:1493
+dir	X:\cpanel\mx_test.X\src\ff.c	1555;"	l	line:1555
+dir	X:\cpanel\mx_test.X\src\ff.c	1744;"	l	line:1744
+dir	X:\cpanel\mx_test.X\src\ff.c	2019;"	l	line:2019
+dir	X:\cpanel\mx_test.X\src\ff.c	2421;"	l	line:2421
+dir	X:\cpanel\mx_test.X\src\ff.c	2776;"	l	line:2776
+dir	X:\cpanel\mx_test.X\src\ff.c	3443;"	l	line:3443
+dir	X:\cpanel\mx_test.X\src\ff.c	3513;"	l	line:3513
+dir	X:\cpanel\mx_test.X\src\ff.c	3589;"	l	line:3589
+dir	X:\cpanel\mx_test.X\src\ff.c	3631;"	l	line:3631
+dir	X:\cpanel\mx_test.X\src\ff.c	3673;"	l	line:3673
+dir	X:\cpanel\mx_test.X\src\ff.h	149;"	m	line:149
+dir_alloc	X:\cpanel\mx_test.X\src\ff.c	1232;"	f	line:1232	file:	signature:( DIR* dp, UINT nent )
+dir_find	X:\cpanel\mx_test.X\src\ff.c	1488;"	f	line:1488	file:	signature:( DIR* dp )
+dir_next	X:\cpanel\mx_test.X\src\ff.c	1163;"	f	line:1163	file:	signature:( DIR* dp, int stretch )
+dir_ptr	X:\cpanel\mx_test.X\src\ff.h	125;"	m	line:125
+dir_read	X:\cpanel\mx_test.X\src\ff.c	1549;"	f	line:1549	file:	signature:( DIR* dp, int vol )
+dir_register	X:\cpanel\mx_test.X\src\ff.c	1608;"	f	line:1608	file:	signature:( DIR* dp )
+dir_remove	X:\cpanel\mx_test.X\src\ff.c	1686;"	f	line:1686	file:	signature:( DIR* dp )
+dir_sdi	X:\cpanel\mx_test.X\src\ff.c	1115;"	f	line:1115	file:	signature:( DIR* dp, UINT idx )
+dir_sect	X:\cpanel\mx_test.X\src\ff.h	124;"	m	line:124
+dirbase	X:\cpanel\mx_test.X\src\ff.h	103;"	m	line:103
+disk_initialize	X:\cpanel\mx_test.X\src\diskio.c	27;"	f	line:27	signature:( BYTE pu )
+disk_initialize	X:\cpanel\mx_test.X\src\diskio.h	35;"	p	line:35	signature:(BYTE pdrv)
+disk_ioctl	X:\cpanel\mx_test.X\src\diskio.c	132;"	f	line:132	signature:( BYTE pdrv, BYTE cmd, void *buff )
+disk_ioctl	X:\cpanel\mx_test.X\src\diskio.h	39;"	p	line:39	signature:(BYTE pdrv, BYTE cmd, void* buff)
+disk_read	X:\cpanel\mx_test.X\src\diskio.c	73;"	f	line:73	signature:( BYTE pdrv, BYTE *buff, DWORD sector, UINT count )
+disk_read	X:\cpanel\mx_test.X\src\diskio.h	37;"	p	line:37	signature:(BYTE pdrv, BYTE* buff, DWORD sector, UINT count)
+disk_status	X:\cpanel\mx_test.X\src\diskio.c	49;"	f	line:49	signature:( BYTE pdrv )
+disk_status	X:\cpanel\mx_test.X\src\diskio.h	36;"	p	line:36	signature:(BYTE pdrv)
+disk_timerproc	X:\cpanel\mx_test.X\sdspi.c	804;"	f	line:804	signature:(void)
+disk_timerproc	X:\cpanel\mx_test.X\sdspi.h	16;"	p	line:16	signature:(void)
+disk_write	X:\cpanel\mx_test.X\src\diskio.c	103;"	f	line:103	signature:( BYTE pdrv, const BYTE *buff, DWORD sector, UINT count )
+disk_write	X:\cpanel\mx_test.X\src\diskio.h	38;"	p	line:38	signature:(BYTE pdrv, const BYTE* buff, DWORD sector, UINT count)
+display_count	X:\cpanel\mx_test.X\mx_test_types.h	124;"	m	line:124	struct:V_data
+dj	X:\cpanel\mx_test.X\src\ff.c	2420;"	l	line:2420
+dj	X:\cpanel\mx_test.X\src\ff.c	2880;"	l	line:2880
+dj	X:\cpanel\mx_test.X\src\ff.c	2914;"	l	line:2914
+dj	X:\cpanel\mx_test.X\src\ff.c	3285;"	l	line:3285
+dj	X:\cpanel\mx_test.X\src\ff.c	3442;"	l	line:3442
+dj	X:\cpanel\mx_test.X\src\ff.c	3512;"	l	line:3512
+dj	X:\cpanel\mx_test.X\src\ff.c	3588;"	l	line:3588
+dj	X:\cpanel\mx_test.X\src\ff.c	3630;"	l	line:3630
+dj	X:\cpanel\mx_test.X\src\ff.c	3757;"	l	line:3757
+dj	X:\cpanel\mx_test.X\src\ff.c	3820;"	l	line:3820
+djn	X:\cpanel\mx_test.X\src\ff.c	3672;"	l	line:3672
+djo	X:\cpanel\mx_test.X\src\ff.c	3672;"	l	line:3672
+drv	X:\cpanel\mx_test.X\src\ff.h	79;"	m	line:79
+dsc	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+dsc	X:\cpanel\mx_test.X\src\ff.c	3514;"	l	line:3514
+dsect	X:\cpanel\mx_test.X\src\ff.h	122;"	m	line:122
+dw	X:\cpanel\mx_test.X\src\ff.c	2451;"	l	line:2451
+dw	X:\cpanel\mx_test.X\src\ff.c	3674;"	l	line:3674
+e_cyl	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+e_hd	X:\cpanel\mx_test.X\src\ff.c	4225;"	l	line:4225
+eb	X:\cpanel\mx_test.X\src\ff.c	4190;"	l	line:4190
+ecl	X:\cpanel\mx_test.X\src\ff.c	980;"	l	line:980
+eject	X:\cpanel\mx_test.X\mx_test_types.h	45;"	m	line:45	struct:INBITS1
+eject	X:\cpanel\mx_test.X\mx_test_types.h	67;"	m	line:67	struct:INBITS2
+eject_led	X:\cpanel\mx_test.X\mx_test_types.h	58;"	m	line:58	struct:OUTBITS1
+enq_lock	X:\cpanel\mx_test.X\src\ff.c	668;"	f	line:668	file:	signature:(void)
+err	X:\cpanel\mx_test.X\src\ff.h	117;"	m	line:117
+f	X:\cpanel\mx_test.X\src\ff.c	4494;"	l	line:4494
+f_chdir	X:\cpanel\mx_test.X\src\ff.c	2875;"	f	line:2875	signature:( const TCHAR* path )
+f_chdir	X:\cpanel\mx_test.X\src\ff.h	225;"	p	line:225	signature:(const TCHAR* path)
+f_chdrive	X:\cpanel\mx_test.X\src\ff.c	2858;"	f	line:2858	signature:( const TCHAR* path )
+f_chdrive	X:\cpanel\mx_test.X\src\ff.h	226;"	p	line:226	signature:(const TCHAR* path)
+f_chmod	X:\cpanel\mx_test.X\src\ff.c	3581;"	f	line:3581	signature:( const TCHAR* path, BYTE value, BYTE mask )
+f_chmod	X:\cpanel\mx_test.X\src\ff.h	223;"	p	line:223	signature:(const TCHAR* path, BYTE value, BYTE mask)
+f_close	X:\cpanel\mx_test.X\src\ff.c	2819;"	f	line:2819	signature:( FIL *fp )
+f_close	X:\cpanel\mx_test.X\src\ff.h	209;"	p	line:209	signature:(FIL* fp)
+f_closedir	X:\cpanel\mx_test.X\src\ff.c	3205;"	f	line:3205	signature:( DIR *dp )
+f_closedir	X:\cpanel\mx_test.X\src\ff.h	217;"	p	line:217	signature:(DIR* dp)
+f_eof::(fp)(((fp)->fptr==(fp)->fsize)	X:\cpanel\mx_test.X\src\ff.h	239;"	d	line:239
+f_error::(fp)((fp)->err)	X:\cpanel\mx_test.X\src\ff.h	240;"	d	line:240
+f_fdisk	X:\cpanel\mx_test.X\src\ff.c	4218;"	f	line:4218	signature:( BYTE pdrv, const DWORD szt[], void* work )
+f_fdisk	X:\cpanel\mx_test.X\src\ff.h	233;"	p	line:233	signature:(BYTE pdrv, const DWORD szt[], void* work)
+f_forward	X:\cpanel\mx_test.X\src\ff.c	3910;"	f	line:3910	signature:( FIL* fp, UINT (*func)(const BYTE*,UINT), UINT btf, UINT* bf )
+f_forward	X:\cpanel\mx_test.X\src\ff.h	212;"	p	line:212	signature:(FIL* fp, UINT(*func)(const BYTE*,UINT), UINT btf, UINT* bf)
+f_getcwd	X:\cpanel\mx_test.X\src\ff.c	2908;"	f	line:2908	signature:( TCHAR* buff, UINT len )
+f_getcwd	X:\cpanel\mx_test.X\src\ff.h	227;"	p	line:227	signature:(TCHAR* buff, UINT len)
+f_getfree	X:\cpanel\mx_test.X\src\ff.c	3314;"	f	line:3314	signature:( const TCHAR* path, DWORD* nclst, FATFS** fatfs )
+f_getfree	X:\cpanel\mx_test.X\src\ff.h	228;"	p	line:228	signature:(const TCHAR* path, DWORD* nclst, FATFS** fatfs)
+f_getlabel	X:\cpanel\mx_test.X\src\ff.c	3750;"	f	line:3750	signature:( const TCHAR* path, TCHAR* label, DWORD* sn )
+f_getlabel	X:\cpanel\mx_test.X\src\ff.h	229;"	p	line:229	signature:(const TCHAR* path, TCHAR* label, DWORD* sn)
+f_gets	X:\cpanel\mx_test.X\src\ff.c	4291;"	f	line:4291	signature:( TCHAR* buff, int len, FIL* fp )
+f_gets	X:\cpanel\mx_test.X\src\ff.h	237;"	p	line:237	signature:(TCHAR* buff, int len, FIL* fp)
+f_lseek	X:\cpanel\mx_test.X\src\ff.c	2991;"	f	line:2991	signature:( FIL* fp, DWORD ofs )
+f_lseek	X:\cpanel\mx_test.X\src\ff.h	213;"	p	line:213	signature:(FIL* fp, DWORD ofs)
+f_mkdir	X:\cpanel\mx_test.X\src\ff.c	3507;"	f	line:3507	signature:( const TCHAR* path )
+f_mkdir	X:\cpanel\mx_test.X\src\ff.h	219;"	p	line:219	signature:(const TCHAR* path)
+f_mkfs	X:\cpanel\mx_test.X\src\ff.c	3973;"	f	line:3973	signature:( const TCHAR* path, BYTE sfd, UINT au )
+f_mkfs	X:\cpanel\mx_test.X\src\ff.h	232;"	p	line:232	signature:(const TCHAR* path, BYTE sfd, UINT au)
+f_mount	X:\cpanel\mx_test.X\src\ff.c	2366;"	f	line:2366	signature:( FATFS* fs, const TCHAR* path, BYTE opt )
+f_mount	X:\cpanel\mx_test.X\src\ff.h	231;"	p	line:231	signature:(FATFS* fs, const TCHAR* path, BYTE opt)
+f_open	X:\cpanel\mx_test.X\src\ff.c	2413;"	f	line:2413	signature:( FIL* fp, const TCHAR* path, BYTE mode )
+f_open	X:\cpanel\mx_test.X\src\ff.h	208;"	p	line:208	signature:(FIL* fp, const TCHAR* path, BYTE mode)
+f_opendir	X:\cpanel\mx_test.X\src\ff.c	3149;"	f	line:3149	signature:( DIR* dp, const TCHAR* path )
+f_opendir	X:\cpanel\mx_test.X\src\ff.h	216;"	p	line:216	signature:(DIR* dp, const TCHAR* path)
+f_printf	X:\cpanel\mx_test.X\src\ff.c	4487;"	f	line:4487	signature:( FIL* fp, const TCHAR* fmt, ... )
+f_printf	X:\cpanel\mx_test.X\src\ff.h	236;"	p	line:236	signature:(FIL* fp, const TCHAR* str, ...)
+f_putc	X:\cpanel\mx_test.X\src\ff.c	4432;"	f	line:4432	signature:( TCHAR c, FIL* fp )
+f_putc	X:\cpanel\mx_test.X\src\ff.h	234;"	p	line:234	signature:(TCHAR c, FIL* fp)
+f_puts	X:\cpanel\mx_test.X\src\ff.c	4459;"	f	line:4459	signature:( const TCHAR* str, FIL* fp )
+f_puts	X:\cpanel\mx_test.X\src\ff.h	235;"	p	line:235	signature:(const TCHAR* str, FIL* cp)
+f_read	X:\cpanel\mx_test.X\src\ff.c	2548;"	f	line:2548	signature:( FIL* fp, void* buff, UINT btr, UINT* br )
+f_read	X:\cpanel\mx_test.X\src\ff.h	210;"	p	line:210	signature:(FIL* fp, void* buff, UINT btr, UINT* br)
+f_readdir	X:\cpanel\mx_test.X\src\ff.c	3237;"	f	line:3237	signature:( DIR* dp, FILINFO* fno )
+f_readdir	X:\cpanel\mx_test.X\src\ff.h	218;"	p	line:218	signature:(DIR* dp, FILINFO* fno)
+f_rename	X:\cpanel\mx_test.X\src\ff.c	3666;"	f	line:3666	signature:( const TCHAR* path_old, const TCHAR* path_new )
+f_rename	X:\cpanel\mx_test.X\src\ff.h	221;"	p	line:221	signature:(const TCHAR* path_old, const TCHAR* path_new)
+f_setlabel	X:\cpanel\mx_test.X\src\ff.c	3815;"	f	line:3815	signature:( const TCHAR* label )
+f_setlabel	X:\cpanel\mx_test.X\src\ff.h	230;"	p	line:230	signature:(const TCHAR* label)
+f_size::(fp)((fp)->fsize)	X:\cpanel\mx_test.X\src\ff.h	242;"	d	line:242
+f_stat	X:\cpanel\mx_test.X\src\ff.c	3279;"	f	line:3279	signature:( const TCHAR* path, FILINFO* fno )
+f_stat	X:\cpanel\mx_test.X\src\ff.h	222;"	p	line:222	signature:(const TCHAR* path, FILINFO* fno)
+f_sync	X:\cpanel\mx_test.X\src\ff.c	2770;"	f	line:2770	signature:( FIL* fp )
+f_sync	X:\cpanel\mx_test.X\src\ff.h	215;"	p	line:215	signature:(FIL* fp)
+f_tell::(fp)((fp)->fptr)	X:\cpanel\mx_test.X\src\ff.h	241;"	d	line:241
+f_truncate	X:\cpanel\mx_test.X\src\ff.c	3381;"	f	line:3381	signature:( FIL* fp )
+f_truncate	X:\cpanel\mx_test.X\src\ff.h	214;"	p	line:214	signature:(FIL* fp)
+f_unlink	X:\cpanel\mx_test.X\src\ff.c	3437;"	f	line:3437	signature:( const TCHAR* path )
+f_unlink	X:\cpanel\mx_test.X\src\ff.h	220;"	p	line:220	signature:(const TCHAR* path)
+f_utime	X:\cpanel\mx_test.X\src\ff.c	3624;"	f	line:3624	signature:( const TCHAR* path, const FILINFO* fno )
+f_utime	X:\cpanel\mx_test.X\src\ff.h	224;"	p	line:224	signature:(const TCHAR* path, const FILINFO* fno)
+f_write	X:\cpanel\mx_test.X\src\ff.c	2649;"	f	line:2649	signature:( FIL* fp, const void *buff, UINT btw, UINT* bw )
+f_write	X:\cpanel\mx_test.X\src\ff.h	211;"	p	line:211	signature:(FIL* fp, const void* buff, UINT btw, UINT* bw)
+fasize	X:\cpanel\mx_test.X\src\ff.c	2171;"	l	line:2171
+fat	X:\cpanel\mx_test.X\src\ff.c	3324;"	l	line:3324
+fatbase	X:\cpanel\mx_test.X\src\ff.h	102;"	m	line:102
+fattrib	X:\cpanel\mx_test.X\src\ff.h	168;"	m	line:168
+fdate	X:\cpanel\mx_test.X\src\ff.h	166;"	m	line:166
+ff_convert	X:\cpanel\mx_test.X\src\ff.h	261;"	p	line:261	signature:(WCHAR chr, UINT dir)
+ff_cre_syncobj	X:\cpanel\mx_test.X\src\ff.h	271;"	p	line:271	signature:(BYTE vol, _SYNC_t* sobj)
+ff_del_syncobj	X:\cpanel\mx_test.X\src\ff.h	274;"	p	line:274	signature:(_SYNC_t sobj)
+ff_memalloc	X:\cpanel\mx_test.X\src\ff.h	264;"	p	line:264	signature:(UINT msize)
+ff_memfree	X:\cpanel\mx_test.X\src\ff.h	265;"	p	line:265	signature:(void* mblock)
+ff_rel_grant	X:\cpanel\mx_test.X\src\ff.h	273;"	p	line:273	signature:(_SYNC_t sobj)
+ff_req_grant	X:\cpanel\mx_test.X\src\ff.h	272;"	p	line:272	signature:(_SYNC_t sobj)
+ff_wtoupper	X:\cpanel\mx_test.X\src\ff.h	262;"	p	line:262	signature:(WCHAR chr)
+fil	X:\cpanel\mx_test.X\src\ff.c	2337;"	l	line:2337
+file_errors	X:\cpanel\mx_test.X\test_main.c	162;"	l	line:162
+file_result	X:\cpanel\mx_test.X\test_main.c	162;"	l	line:162
+find_volume	X:\cpanel\mx_test.X\src\ff.c	2162;"	f	line:2162	file:	signature:( FATFS** rfs, const TCHAR** path, BYTE wmode )
+fit_lfn	X:\cpanel\mx_test.X\src\ff.c	1371;"	f	line:1371	file:	signature:( const WCHAR* lfnbuf, BYTE* dir, BYTE ord, BYTE sum )
+flag	X:\cpanel\mx_test.X\src\ff.h	116;"	m	line:116
+fmt	X:\cpanel\mx_test.X\src\ff.c	2168;"	l	line:2168
+fmt	X:\cpanel\mx_test.X\src\ff.c	3982;"	l	line:3982
+fn	X:\cpanel\mx_test.X\src\ff.c	1615;"	l	line:1615
+fn	X:\cpanel\mx_test.X\src\ff.h	150;"	m	line:150
+fname	X:\cpanel\mx_test.X\src\ff.h	169;"	m	line:169
+fno	X:\cpanel\mx_test.X\src\ff.c	2918;"	l	line:2918
+follow_path	X:\cpanel\mx_test.X\src\ff.c	2013;"	f	line:2013	file:	signature:( DIR* dp, const TCHAR* path )
+fp	X:\cpanel\mx_test.X\src\ff.c	4370;"	m	line:4370	file:
+fptr	X:\cpanel\mx_test.X\src\ff.h	118;"	m	line:118
+free_clust	X:\cpanel\mx_test.X\src\ff.h	94;"	m	line:94
+fs	X:\cpanel\mx_test.X\src\ff.c	165;"	m	line:165	file:
+fs	X:\cpanel\mx_test.X\src\ff.c	2173;"	l	line:2173
+fs	X:\cpanel\mx_test.X\src\ff.c	2834;"	l	line:2834
+fs	X:\cpanel\mx_test.X\src\ff.c	3155;"	l	line:3155
+fs	X:\cpanel\mx_test.X\src\ff.c	3215;"	l	line:3215
+fs	X:\cpanel\mx_test.X\src\ff.c	3321;"	l	line:3321
+fs	X:\cpanel\mx_test.X\src\ff.c	3987;"	l	line:3987
+fs	X:\cpanel\mx_test.X\src\ff.h	114;"	m	line:114
+fs	X:\cpanel\mx_test.X\src\ff.h	143;"	m	line:143
+fs_type	X:\cpanel\mx_test.X\src\ff.h	78;"	m	line:78
+fsi_flag	X:\cpanel\mx_test.X\src\ff.h	83;"	m	line:83
+fsize	X:\cpanel\mx_test.X\src\ff.h	100;"	m	line:100
+fsize	X:\cpanel\mx_test.X\src\ff.h	119;"	m	line:119
+fsize	X:\cpanel\mx_test.X\src\ff.h	165;"	m	line:165
+ftime	X:\cpanel\mx_test.X\src\ff.h	167;"	m	line:167
+gen_numname	X:\cpanel\mx_test.X\src\ff.c	1409;"	f	line:1409	file:	signature:( BYTE* dst, const BYTE* src, const WCHAR* lfn, UINT seq )
+get_fat	X:\cpanel\mx_test.X\src\ff.c	863;"	f	line:863	signature:( FATFS* fs, DWORD clst )
+get_fattime	X:\cpanel\mx_test.X\sdspi.c	819;"	f	line:819	signature:(void)
+get_fattime	X:\cpanel\mx_test.X\sdspi.h	17;"	p	line:17	signature:(void)
+get_fattime	X:\cpanel\mx_test.X\src\ff.h	256;"	p	line:256	signature:(void)
+get_fileinfo	X:\cpanel\mx_test.X\src\ff.c	1733;"	f	line:1733	file:	signature:( DIR* dp, FILINFO* fno )
+get_ldnumber	X:\cpanel\mx_test.X\src\ff.c	2075;"	f	line:2075	file:	signature:( const TCHAR** path )
+gettimeofday	X:\cpanel\mx_test.X\sdspi.c	860;"	f	line:860	signature:(struct timeval *tv, void *tz)
+i	X:\cpanel\mx_test.X\sdspi.c	343;"	l	line:343	file:
+i	X:\cpanel\mx_test.X\sdspi.c	436;"	l	line:436	file:
+i	X:\cpanel\mx_test.X\sdspi.c	516;"	l	line:516	file:
+i	X:\cpanel\mx_test.X\sdspi.c	582;"	l	line:582
+i	X:\cpanel\mx_test.X\src\ff.c	1169;"	l	line:1169
+i	X:\cpanel\mx_test.X\src\ff.c	1312;"	l	line:1312
+i	X:\cpanel\mx_test.X\src\ff.c	1343;"	l	line:1343
+i	X:\cpanel\mx_test.X\src\ff.c	1378;"	l	line:1378
+i	X:\cpanel\mx_test.X\src\ff.c	1417;"	l	line:1417
+i	X:\cpanel\mx_test.X\src\ff.c	1692;"	l	line:1692
+i	X:\cpanel\mx_test.X\src\ff.c	1738;"	l	line:1738
+i	X:\cpanel\mx_test.X\src\ff.c	1811;"	l	line:1811
+i	X:\cpanel\mx_test.X\src\ff.c	2080;"	l	line:2080
+i	X:\cpanel\mx_test.X\src\ff.c	2215;"	l	line:2215
+i	X:\cpanel\mx_test.X\src\ff.c	2915;"	l	line:2915
+i	X:\cpanel\mx_test.X\src\ff.c	3323;"	l	line:3323
+i	X:\cpanel\mx_test.X\src\ff.c	3758;"	l	line:3758
+i	X:\cpanel\mx_test.X\src\ff.c	3822;"	l	line:3822
+i	X:\cpanel\mx_test.X\src\ff.c	3984;"	l	line:3984
+i	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+i	X:\cpanel\mx_test.X\src\ff.c	4383;"	l	line:4383
+i	X:\cpanel\mx_test.X\src\ff.c	4495;"	l	line:4495
+i	X:\cpanel\mx_test.X\src\ff.c	647;"	l	line:647
+i	X:\cpanel\mx_test.X\src\ff.c	670;"	l	line:670
+i	X:\cpanel\mx_test.X\src\ff.c	683;"	l	line:683
+i	X:\cpanel\mx_test.X\src\ff.c	737;"	l	line:737
+ibits	X:\cpanel\mx_test.X\mx_test_types.h	111;"	m	line:111	struct:SDEV1
+ibits	X:\cpanel\mx_test.X\mx_test_types.h	118;"	m	line:118	struct:SDEV2
+ic	X:\cpanel\mx_test.X\src\ff.c	1121;"	l	line:1121
+id	X:\cpanel\mx_test.X\src\ff.h	115;"	m	line:115
+id	X:\cpanel\mx_test.X\src\ff.h	144;"	m	line:144
+id	X:\cpanel\mx_test.X\src\ff.h	84;"	m	line:84
+idx	X:\cpanel\mx_test.X\src\ff.c	167;"	m	line:167	file:
+idx	X:\cpanel\mx_test.X\src\ff.c	4371;"	m	line:4371	file:
+ifptr	X:\cpanel\mx_test.X\src\ff.c	3063;"	l	line:3063
+in_bits	X:\cpanel\mx_test.X\mx_test_types.h	100;"	m	line:100	union:Ibits2
+in_bits	X:\cpanel\mx_test.X\mx_test_types.h	90;"	m	line:90	union:Ibits1
+in_byte	X:\cpanel\mx_test.X\mx_test_types.h	89;"	m	line:89	union:Ibits1
+in_byte	X:\cpanel\mx_test.X\mx_test_types.h	99;"	m	line:99	union:Ibits2
+inc_lock	X:\cpanel\mx_test.X\src\ff.c	678;"	f	line:678	file:	signature:( DIR* dp, int acc )
+index	X:\cpanel\mx_test.X\src\ff.h	145;"	m	line:145
+init_spi_ports	X:\cpanel\mx_test.X\sdspi.c	703;"	f	line:703	signature:(void)
+init_spi_ports	X:\cpanel\mx_test.X\sdspi.h	20;"	p	line:20	signature:(void)
+int16_t	X:\cpanel\mx_test.X\mx_test_types.h	27;"	t	line:27
+int32_t	X:\cpanel\mx_test.X\mx_test_types.h	28;"	t	line:28
+int64_t	X:\cpanel\mx_test.X\mx_test_types.h	29;"	t	line:29
+int8_t	X:\cpanel\mx_test.X\mx_test_types.h	26;"	t	line:26
+intStatus	X:\cpanel\mx_test.X\sdspi.c	862;"	l	line:862
+intStatus	X:\cpanel\mx_test.X\sdspi.c	872;"	l	line:872
+int_status	X:\cpanel\mx_test.X\sdspi.c	158;"	l	line:158
+int_status	X:\cpanel\mx_test.X\test_main.c	114;"	l	line:114
+io_result	X:\cpanel\mx_test.X\test_main.c	162;"	l	line:162
+is_led_blinking	X:\cpanel\mx_test.X\blinker.c	25;"	f	line:25	signature:(uint8_t led)
+is_led_blinking	X:\cpanel\mx_test.X\blinker.h	17;"	p	line:17	signature:(uint8_t)
+is_led_on	X:\cpanel\mx_test.X\blinker.c	37;"	f	line:37	signature:(uint8_t led)
+is_led_on	X:\cpanel\mx_test.X\blinker.h	18;"	p	line:18	signature:(uint8_t)
+j	X:\cpanel\mx_test.X\src\ff.c	1417;"	l	line:1417
+j	X:\cpanel\mx_test.X\src\ff.c	3758;"	l	line:3758
+j	X:\cpanel\mx_test.X\src\ff.c	3822;"	l	line:3822
+j	X:\cpanel\mx_test.X\src\ff.c	4495;"	l	line:4495
+last_clust	X:\cpanel\mx_test.X\src\ff.h	93;"	m	line:93
+ld_clust	X:\cpanel\mx_test.X\src\ff.c	1268;"	f	line:1268	file:	signature:( FATFS* fs, BYTE* dir )
+len	X:\cpanel\mx_test.X\sdspi.c	582;"	l	line:582
+lfn	X:\cpanel\mx_test.X\src\ff.c	1616;"	l	line:1616
+lfn	X:\cpanel\mx_test.X\src\ff.c	1773;"	l	line:1773
+lfn	X:\cpanel\mx_test.X\src\ff.c	1810;"	l	line:1810
+lfn	X:\cpanel\mx_test.X\src\ff.h	155;"	m	line:155
+lfn_idx	X:\cpanel\mx_test.X\src\ff.h	156;"	m	line:156
+lfname	X:\cpanel\mx_test.X\src\ff.h	171;"	m	line:171
+lfsize	X:\cpanel\mx_test.X\src\ff.h	172;"	m	line:172
+likely::(x)__builtin_expect(!!(x),1)	X:\cpanel\mx_test.X\sdspi.c	39;"	d	line:39	file:
+lock_fs	X:\cpanel\mx_test.X\src\ff.c	609;"	f	line:609	file:	signature:( FATFS* fs )
+lockid	X:\cpanel\mx_test.X\src\ff.h	131;"	m	line:131
+lockid	X:\cpanel\mx_test.X\src\ff.h	152;"	m	line:152
+magic	X:\cpanel\mx_test.X\mx_test_types.h	40;"	m	line:40	struct:SDCARD
+main	X:\cpanel\mx_test.X\test_main.c	155;"	f	line:155	signature:(void)
+md	X:\cpanel\mx_test.X\src\ff.c	3982;"	l	line:3982
+mem_cmp	X:\cpanel\mx_test.X\src\ff.c	586;"	f	line:586	file:	signature:(const void* dst, const void* src, UINT cnt)
+mem_cpy	X:\cpanel\mx_test.X\src\ff.c	560;"	f	line:560	file:	signature:(void* dst, const void* src, UINT cnt)
+mem_set	X:\cpanel\mx_test.X\src\ff.c	577;"	f	line:577	file:	signature:(void* dst, int val, UINT cnt)
+mmc_read_block	X:\cpanel\mx_test.X\sdspi.c	514;"	f	line:514	signature:(BYTE* buff, unsigned long block_number)
+mmc_read_block	X:\cpanel\mx_test.X\sdspi.h	26;"	p	line:26	signature:(BYTE*, unsigned long)
+mmc_write_block	X:\cpanel\mx_test.X\sdspi.c	434;"	f	line:434	signature:(const BYTE* buff, unsigned long block_number)
+mmc_write_block	X:\cpanel\mx_test.X\sdspi.h	25;"	p	line:25	signature:(const BYTE*, unsigned long)
+move_window	X:\cpanel\mx_test.X\src\ff.c	779;"	f	line:779	file:	signature:( FATFS* fs, DWORD sector )
+n	X:\cpanel\mx_test.X\sdspi.c	242;"	l	line:242
+n	X:\cpanel\mx_test.X\sdspi.c	280;"	l	line:280
+n	X:\cpanel\mx_test.X\sdspi.c	343;"	l	line:343	file:
+n	X:\cpanel\mx_test.X\sdspi.c	714;"	l	line:714
+n	X:\cpanel\mx_test.X\sdspi.c	806;"	l	line:806
+n	X:\cpanel\mx_test.X\src\ff.c	1238;"	l	line:1238
+n	X:\cpanel\mx_test.X\src\ff.c	1473;"	l	line:1473
+n	X:\cpanel\mx_test.X\src\ff.c	1614;"	l	line:1614
+n	X:\cpanel\mx_test.X\src\ff.c	2915;"	l	line:2915
+n	X:\cpanel\mx_test.X\src\ff.c	3322;"	l	line:3322
+n	X:\cpanel\mx_test.X\src\ff.c	3513;"	l	line:3513
+n	X:\cpanel\mx_test.X\src\ff.c	3983;"	l	line:3983
+n	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+n	X:\cpanel\mx_test.X\src\ff.c	4297;"	l	line:4297
+n	X:\cpanel\mx_test.X\src\ff.c	714;"	l	line:714
+n_clst	X:\cpanel\mx_test.X\src\ff.c	3983;"	l	line:3983
+n_dir	X:\cpanel\mx_test.X\src\ff.c	3986;"	l	line:3986
+n_fat	X:\cpanel\mx_test.X\src\ff.c	3986;"	l	line:3986
+n_fatent	X:\cpanel\mx_test.X\src\ff.h	99;"	m	line:99
+n_fats	X:\cpanel\mx_test.X\src\ff.h	81;"	m	line:81
+n_rootdir	X:\cpanel\mx_test.X\src\ff.h	85;"	m	line:85
+n_rsv	X:\cpanel\mx_test.X\src\ff.c	3986;"	l	line:3986
+n_vol	X:\cpanel\mx_test.X\src\ff.c	3986;"	l	line:3986
+name	X:\cpanel\mx_test.X\mx_test_types.h	36;"	m	line:36	struct:SD_VOLUME_INFO
+nchr	X:\cpanel\mx_test.X\src\ff.c	4371;"	m	line:4371	file:
+ncl	X:\cpanel\mx_test.X\src\ff.c	1030;"	l	line:1030
+ncl	X:\cpanel\mx_test.X\src\ff.c	1092;"	l	line:1092
+ncl	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+ncl	X:\cpanel\mx_test.X\src\ff.c	3386;"	l	line:3386
+nclst	X:\cpanel\mx_test.X\src\ff.c	2171;"	l	line:2171
+nent	X:\cpanel\mx_test.X\src\ff.c	1614;"	l	line:1614
+nf	X:\cpanel\mx_test.X\src\ff.c	758;"	l	line:758
+ni	X:\cpanel\mx_test.X\src\ff.c	1811;"	l	line:1811
+nrsv	X:\cpanel\mx_test.X\src\ff.c	2172;"	l	line:2172
+ns	X:\cpanel\mx_test.X\src\ff.c	1416;"	l	line:1416
+ns	X:\cpanel\mx_test.X\src\ff.c	2019;"	l	line:2019
+nsec	X:\cpanel\mx_test.X\sdspi.c	436;"	l	line:436	file:
+nsec	X:\cpanel\mx_test.X\sdspi.c	516;"	l	line:516	file:
+nsect	X:\cpanel\mx_test.X\src\ff.c	3063;"	l	line:3063
+nw	X:\cpanel\mx_test.X\src\ff.c	4438;"	l	line:4438
+nw	X:\cpanel\mx_test.X\src\ff.c	4465;"	l	line:4465
+nw	X:\cpanel\mx_test.X\src\ff.c	4495;"	l	line:4495
+nxt	X:\cpanel\mx_test.X\src\ff.c	978;"	l	line:978
+oFlags	X:\cpanel\mx_test.X\sdspi.c	691;"	l	line:691
+oFlags	X:\cpanel\mx_test.X\sdspi.c	698;"	l	line:698
+obits	X:\cpanel\mx_test.X\mx_test_types.h	112;"	m	line:112	struct:SDEV1
+obits	X:\cpanel\mx_test.X\mx_test_types.h	119;"	m	line:119	struct:SDEV2
+ocr	X:\cpanel\mx_test.X\sdspi.c	30;"	v	line:30	file:
+old_alt	X:\cpanel\mx_test.X\blinker.c	32;"	l	line:32
+ord	X:\cpanel\mx_test.X\src\ff.c	1495;"	l	line:1495
+ord	X:\cpanel\mx_test.X\src\ff.c	1557;"	l	line:1557
+out_bits	X:\cpanel\mx_test.X\mx_test_types.h	105;"	m	line:105	union:Obits2
+out_bits	X:\cpanel\mx_test.X\mx_test_types.h	95;"	m	line:95	union:Obits1
+out_byte	X:\cpanel\mx_test.X\mx_test_types.h	104;"	m	line:104	union:Obits2
+out_byte	X:\cpanel\mx_test.X\mx_test_types.h	94;"	m	line:94	union:Obits1
+p	X:\cpanel\mx_test.X\src\ff.c	1739;"	l	line:1739
+p	X:\cpanel\mx_test.X\src\ff.c	1812;"	l	line:1812
+p	X:\cpanel\mx_test.X\src\ff.c	3324;"	l	line:3324
+p	X:\cpanel\mx_test.X\src\ff.c	4225;"	l	line:4225
+p	X:\cpanel\mx_test.X\src\ff.c	4298;"	l	line:4298
+p	X:\cpanel\mx_test.X\src\ff.c	4497;"	l	line:4497
+p	X:\cpanel\mx_test.X\src\ff.c	869;"	l	line:869
+p	X:\cpanel\mx_test.X\src\ff.c	916;"	l	line:916
+p_cyl	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+p_switch	X:\cpanel\mx_test.X\sdspi.c	611;"	l	line:611
+part	X:\cpanel\mx_test.X\src\ff.c	3982;"	l	line:3982
+pb	X:\cpanel\mx_test.X\src\ff.c	4437;"	l	line:4437
+pb	X:\cpanel\mx_test.X\src\ff.c	4464;"	l	line:4464
+pb	X:\cpanel\mx_test.X\src\ff.c	4498;"	l	line:4498
+pcl	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+pcl	X:\cpanel\mx_test.X\src\ff.c	3514;"	l	line:3514
+pd	X:\cpanel\mx_test.X\src\ff.h	37;"	m	line:37
+pdrv	X:\cpanel\mx_test.X\src\ff.c	3982;"	l	line:3982
+pick_lfn	X:\cpanel\mx_test.X\src\ff.c	1338;"	f	line:1338	file:	signature:( WCHAR* lfnbuf, BYTE* dir )
+ps_deselect	X:\cpanel\mx_test.X\sdspi.c	85;"	f	line:85	signature:(void)
+ps_deselect	X:\cpanel\mx_test.X\sdspi.h	27;"	p	line:27	signature:(void)
+ps_select	X:\cpanel\mx_test.X\sdspi.c	91;"	f	line:91	signature:(int ps_id)
+ps_select	X:\cpanel\mx_test.X\sdspi.h	28;"	p	line:28	signature:(int)
+pt	X:\cpanel\mx_test.X\src\ff.c	2219;"	l	line:2219
+pt	X:\cpanel\mx_test.X\src\ff.h	38;"	m	line:38
+ptr	X:\cpanel\mx_test.X\sdspi.c	714;"	l	line:714
+put_fat	X:\cpanel\mx_test.X\src\ff.c	909;"	f	line:909	signature:( FATFS* fs, DWORD clst, DWORD val )
+putbuff	X:\cpanel\mx_test.X\src\ff.c	4373;"	t	line:4373	file:
+putc_bfd	X:\cpanel\mx_test.X\src\ff.c	4377;"	f	line:4377	file:	signature:( putbuff* pb, TCHAR c )
+r	X:\cpanel\mx_test.X\src\ff.c	4494;"	l	line:4494
+r	X:\cpanel\mx_test.X\src\ff.c	588;"	l	line:588
+rbuff	X:\cpanel\mx_test.X\src\ff.c	2558;"	l	line:2558
+rc	X:\cpanel\mx_test.X\src\ff.c	4300;"	l	line:4300
+rcnt	X:\cpanel\mx_test.X\src\ff.c	2557;"	l	line:2557
+rcnt	X:\cpanel\mx_test.X\src\ff.c	3919;"	l	line:3919
+rcvr_spi_bus	X:\cpanel\mx_test.X\sdspi.c	197;"	f	line:197	signature:(void)
+rcvr_spi_bus	X:\cpanel\mx_test.X\sdspi.h	22;"	p	line:22	signature:(void)
+rcvr_spi_sdcard	X:\cpanel\mx_test.X\sdspi.c	226;"	f	line:226	signature:(void)
+rcvr_spi_sdcard	X:\cpanel\mx_test.X\sdspi.h	24;"	p	line:24	signature:(void)
+read_block_len	X:\cpanel\mx_test.X\mx_test_types.h	34;"	m	line:34	struct:SD_VOLUME_INFO
+rec_buffer	X:\cpanel\mx_test.X\sdspi.c	181;"	l	line:181
+rec_buffer	X:\cpanel\mx_test.X\sdspi.c	210;"	l	line:210	file:
+rec_data	X:\cpanel\mx_test.X\mx_test_types.h	109;"	m	line:109	struct:SDEV1
+rec_data	X:\cpanel\mx_test.X\mx_test_types.h	116;"	m	line:116	struct:SDEV2
+rec_tmp	X:\cpanel\mx_test.X\mx_test_types.h	109;"	m	line:109	struct:SDEV1
+rec_tmp	X:\cpanel\mx_test.X\mx_test_types.h	116;"	m	line:116	struct:SDEV2
+records	X:\cpanel\mx_test.X\test_main.c	162;"	l	line:162
+remain	X:\cpanel\mx_test.X\src\ff.c	2556;"	l	line:2556
+remain	X:\cpanel\mx_test.X\src\ff.c	3918;"	l	line:3918
+remove_chain	X:\cpanel\mx_test.X\src\ff.c	972;"	f	line:972	file:	signature:( FATFS* fs, DWORD clst )
+res	X:\cpanel\mx_test.X\sdspi.c	242;"	l	line:242
+res	X:\cpanel\mx_test.X\sdspi.c	713;"	l	line:713
+res	X:\cpanel\mx_test.X\src\ff.c	1031;"	l	line:1031
+res	X:\cpanel\mx_test.X\src\ff.c	1237;"	l	line:1237
+res	X:\cpanel\mx_test.X\src\ff.c	1492;"	l	line:1492
+res	X:\cpanel\mx_test.X\src\ff.c	1554;"	l	line:1554
+res	X:\cpanel\mx_test.X\src\ff.c	1612;"	l	line:1612
+res	X:\cpanel\mx_test.X\src\ff.c	1690;"	l	line:1690
+res	X:\cpanel\mx_test.X\src\ff.c	2018;"	l	line:2018
+res	X:\cpanel\mx_test.X\src\ff.c	2374;"	l	line:2374
+res	X:\cpanel\mx_test.X\src\ff.c	2419;"	l	line:2419
+res	X:\cpanel\mx_test.X\src\ff.c	2555;"	l	line:2555
+res	X:\cpanel\mx_test.X\src\ff.c	2656;"	l	line:2656
+res	X:\cpanel\mx_test.X\src\ff.c	2774;"	l	line:2774
+res	X:\cpanel\mx_test.X\src\ff.c	2823;"	l	line:2823
+res	X:\cpanel\mx_test.X\src\ff.c	2879;"	l	line:2879
+res	X:\cpanel\mx_test.X\src\ff.c	2913;"	l	line:2913
+res	X:\cpanel\mx_test.X\src\ff.c	2996;"	l	line:2996
+res	X:\cpanel\mx_test.X\src\ff.c	3154;"	l	line:3154
+res	X:\cpanel\mx_test.X\src\ff.c	3209;"	l	line:3209
+res	X:\cpanel\mx_test.X\src\ff.c	3242;"	l	line:3242
+res	X:\cpanel\mx_test.X\src\ff.c	3284;"	l	line:3284
+res	X:\cpanel\mx_test.X\src\ff.c	3320;"	l	line:3320
+res	X:\cpanel\mx_test.X\src\ff.c	3385;"	l	line:3385
+res	X:\cpanel\mx_test.X\src\ff.c	3441;"	l	line:3441
+res	X:\cpanel\mx_test.X\src\ff.c	3511;"	l	line:3511
+res	X:\cpanel\mx_test.X\src\ff.c	3587;"	l	line:3587
+res	X:\cpanel\mx_test.X\src\ff.c	3629;"	l	line:3629
+res	X:\cpanel\mx_test.X\src\ff.c	3671;"	l	line:3671
+res	X:\cpanel\mx_test.X\src\ff.c	3756;"	l	line:3756
+res	X:\cpanel\mx_test.X\src\ff.c	3819;"	l	line:3819
+res	X:\cpanel\mx_test.X\src\ff.c	3917;"	l	line:3917
+res	X:\cpanel\mx_test.X\src\ff.c	715;"	l	line:715
+res	X:\cpanel\mx_test.X\src\ff.c	809;"	l	line:809
+res	X:\cpanel\mx_test.X\src\ff.c	917;"	l	line:917
+res	X:\cpanel\mx_test.X\src\ff.c	977;"	l	line:977
+result	X:\cpanel\mx_test.X\sdspi.c	426;"	l	line:426
+result	X:\cpanel\mx_test.X\sdspi.c	504;"	l	line:504
+result	X:\cpanel\mx_test.X\src\diskio.c	110;"	l	line:110
+result	X:\cpanel\mx_test.X\src\diskio.c	138;"	l	line:138
+result	X:\cpanel\mx_test.X\src\diskio.c	31;"	l	line:31
+result	X:\cpanel\mx_test.X\src\diskio.c	53;"	l	line:53
+result	X:\cpanel\mx_test.X\src\diskio.c	80;"	l	line:80
+ret_char	X:\cpanel\mx_test.X\sdspi.c	582;"	l	line:582
+retry	X:\cpanel\mx_test.X\sdspi.c	436;"	l	line:436	file:
+retry	X:\cpanel\mx_test.X\sdspi.c	516;"	l	line:516	file:
+rp	X:\cpanel\mx_test.X\src\ff.c	2375;"	l	line:2375
+rt	X:\cpanel\mx_test.X\src\ff.c	980;"	l	line:980
+s	X:\cpanel\mx_test.X\src\ff.c	1312;"	l	line:1312
+s	X:\cpanel\mx_test.X\src\ff.c	1343;"	l	line:1343
+s	X:\cpanel\mx_test.X\src\ff.c	1378;"	l	line:1378
+s	X:\cpanel\mx_test.X\src\ff.c	4299;"	l	line:4299
+s	X:\cpanel\mx_test.X\src\ff.c	4497;"	l	line:4497
+s	X:\cpanel\mx_test.X\src\ff.c	562;"	l	line:562
+s	X:\cpanel\mx_test.X\src\ff.c	587;"	l	line:587
+s_hd	X:\cpanel\mx_test.X\src\ff.c	4225;"	l	line:4225
+s_part	X:\cpanel\mx_test.X\src\ff.c	4227;"	l	line:4227
+scl	X:\cpanel\mx_test.X\src\ff.c	1030;"	l	line:1030
+scl	X:\cpanel\mx_test.X\src\ff.c	980;"	l	line:980
+sclust	X:\cpanel\mx_test.X\src\ff.h	120;"	m	line:120
+sclust	X:\cpanel\mx_test.X\src\ff.h	146;"	m	line:146
+sd_deselect	X:\cpanel\mx_test.X\sdspi.c	59;"	f	line:59	signature:(void)
+sd_select	X:\cpanel\mx_test.X\sdspi.c	68;"	f	line:68	signature:(void)
+sddetect	X:\cpanel\mx_test.X\mx_test_types.h	41;"	m	line:41	struct:SDCARD
+sdinit	X:\cpanel\mx_test.X\mx_test_types.h	41;"	m	line:41	struct:SDCARD
+sdj	X:\cpanel\mx_test.X\src\ff.c	3442;"	l	line:3442
+sdtype	X:\cpanel\mx_test.X\mx_test_types.h	41;"	m	line:41	struct:SDCARD
+sect	X:\cpanel\mx_test.X\src\ff.c	1120;"	l	line:1120
+sect	X:\cpanel\mx_test.X\src\ff.c	2556;"	l	line:2556
+sect	X:\cpanel\mx_test.X\src\ff.c	2657;"	l	line:2657
+sect	X:\cpanel\mx_test.X\src\ff.c	3322;"	l	line:3322
+sect	X:\cpanel\mx_test.X\src\ff.c	3918;"	l	line:3918
+sect	X:\cpanel\mx_test.X\src\ff.h	148;"	m	line:148
+sector_count	X:\cpanel\mx_test.X\mx_test_types.h	35;"	m	line:35	struct:SD_VOLUME_INFO
+sector_multiply	X:\cpanel\mx_test.X\mx_test_types.h	34;"	m	line:34	struct:SD_VOLUME_INFO
+send_cmd	X:\cpanel\mx_test.X\sdspi.c	238;"	f	line:238	signature:(unsigned char cmd, unsigned long arg )
+send_dummys	X:\cpanel\mx_test.X\sdspi.c	278;"	f	line:278	signature:(void)
+send_dummys	X:\cpanel\mx_test.X\sdspi.h	8;"	p	line:8	signature:(void)
+serial	X:\cpanel\mx_test.X\mx_test_types.h	35;"	m	line:35	struct:SD_VOLUME_INFO
+settimeofday	X:\cpanel\mx_test.X\sdspi.c	870;"	f	line:870	signature:(const struct timeval *tv, void *tz)
+si	X:\cpanel\mx_test.X\src\ff.c	1811;"	l	line:1811
+size_MB	X:\cpanel\mx_test.X\mx_test_types.h	33;"	m	line:33	struct:SD_VOLUME_INFO
+sl	X:\cpanel\mx_test.X\src\ff.c	3822;"	l	line:3822
+sn	X:\cpanel\mx_test.X\src\ff.c	1615;"	l	line:1615
+sobj	X:\cpanel\mx_test.X\src\ff.h	90;"	m	line:90
+sp	X:\cpanel\mx_test.X\src\ff.c	2097;"	l	line:2097
+spi_count	X:\cpanel\mx_test.X\mx_test_types.h	123;"	m	line:123	struct:V_data
+spi_flag	X:\cpanel\mx_test.X\mx_test_types.h	127;"	m	line:127	struct:V_data
+spi_flag0	X:\cpanel\mx_test.X\mx_test_types.h	127;"	m	line:127	struct:V_data
+spi_flag1	X:\cpanel\mx_test.X\mx_test_types.h	127;"	m	line:127	struct:V_data
+sr	X:\cpanel\mx_test.X\src\ff.c	1424;"	l	line:1424
+ssize	X:\cpanel\mx_test.X\src\ff.h	87;"	m	line:87
+ssm	X:\cpanel\mx_test.X\sdspi.c	436;"	l	line:436	file:
+ssm	X:\cpanel\mx_test.X\sdspi.c	516;"	l	line:516	file:
+st_clust	X:\cpanel\mx_test.X\src\ff.c	1285;"	f	line:1285	file:	signature:( BYTE* dir, DWORD cl )
+stat	X:\cpanel\mx_test.X\src\ff.c	2170;"	l	line:2170
+stat	X:\cpanel\mx_test.X\src\ff.c	3322;"	l	line:3322
+stat	X:\cpanel\mx_test.X\src\ff.c	3988;"	l	line:3988
+stat	X:\cpanel\mx_test.X\src\ff.c	4226;"	l	line:4226
+status	X:\cpanel\mx_test.X\mx_test_types.h	109;"	m	line:109	struct:SDEV1
+status	X:\cpanel\mx_test.X\mx_test_types.h	116;"	m	line:116	struct:SDEV2
+str	X:\cpanel\mx_test.X\src\ff.c	2096;"	l	line:2096	file:
+sum	X:\cpanel\mx_test.X\src\ff.c	1472;"	l	line:1472
+sum	X:\cpanel\mx_test.X\src\ff.c	1495;"	l	line:1495
+sum	X:\cpanel\mx_test.X\src\ff.c	1557;"	l	line:1557
+sum	X:\cpanel\mx_test.X\src\ff.c	1615;"	l	line:1615
+sum_sfn	X:\cpanel\mx_test.X\src\ff.c	1468;"	f	line:1468	file:	signature:( const BYTE* dir )
+sync_fs	X:\cpanel\mx_test.X\src\ff.c	805;"	f	line:805	file:	signature:( FATFS* fs )
+sync_window	X:\cpanel\mx_test.X\src\ff.c	753;"	f	line:753	file:	signature:( FATFS* fs )
+sys	X:\cpanel\mx_test.X\src\ff.c	3982;"	l	line:3982
+sysect	X:\cpanel\mx_test.X\src\ff.c	2171;"	l	line:2171
+sz_cyl	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+sz_disk	X:\cpanel\mx_test.X\src\ff.c	4227;"	l	line:4227
+sz_part	X:\cpanel\mx_test.X\src\ff.c	4227;"	l	line:4227
+szbfat	X:\cpanel\mx_test.X\src\ff.c	2171;"	l	line:2171
+t	X:\cpanel\mx_test.X\sdspi.c	882;"	l	line:882
+tbl	X:\cpanel\mx_test.X\src\ff.c	1092;"	l	line:1092
+tbl	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+tbl	X:\cpanel\mx_test.X\src\ff.c	3982;"	l	line:3982
+tc	X:\cpanel\mx_test.X\src\ff.c	2099;"	l	line:2099
+tcl	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+time	X:\cpanel\mx_test.X\sdspi.c	880;"	f	line:880	signature:(time_t *tod)
+timerint_count	X:\cpanel\mx_test.X\mx_test_types.h	123;"	m	line:123	struct:V_data
+tlen	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+tm	X:\cpanel\mx_test.X\src\ff.c	2775;"	l	line:2775
+tm	X:\cpanel\mx_test.X\src\ff.c	3514;"	l	line:3514
+tm	X:\cpanel\mx_test.X\src\ff.c	3824;"	l	line:3824
+tmp	X:\cpanel\mx_test.X\sdspi.c	437;"	l	line:437	file:
+tmp	X:\cpanel\mx_test.X\sdspi.c	517;"	l	line:517	file:
+tmp_char	X:\cpanel\mx_test.X\sdspi.c	582;"	l	line:582
+tot_cyl	X:\cpanel\mx_test.X\src\ff.c	4224;"	l	line:4224
+tp	X:\cpanel\mx_test.X\src\ff.c	2079;"	l	line:2079
+tp	X:\cpanel\mx_test.X\src\ff.c	2917;"	l	line:2917
+tsect	X:\cpanel\mx_test.X\src\ff.c	2171;"	l	line:2171
+tt	X:\cpanel\mx_test.X\src\ff.c	2079;"	l	line:2079
+uc	X:\cpanel\mx_test.X\src\ff.c	1313;"	l	line:1313
+uc	X:\cpanel\mx_test.X\src\ff.c	1344;"	l	line:1344
+uint16_t	X:\cpanel\mx_test.X\mx_test_types.h	22;"	t	line:22
+uint32_t	X:\cpanel\mx_test.X\mx_test_types.h	23;"	t	line:23
+uint64_t	X:\cpanel\mx_test.X\mx_test_types.h	24;"	t	line:24
+uint8_t	X:\cpanel\mx_test.X\mx_test_types.h	21;"	t	line:21
+ulen	X:\cpanel\mx_test.X\src\ff.c	3006;"	l	line:3006
+unlikely::(x)__builtin_expect(!!(x),0)	X:\cpanel\mx_test.X\sdspi.c	40;"	d	line:40	file:
+unlock_fs	X:\cpanel\mx_test.X\src\ff.c	618;"	f	line:618	file:	signature:( FATFS* fs, FRESULT res )
+update_rate	X:\cpanel\mx_test.X\test_main.c	161;"	l	line:161
+v	X:\cpanel\mx_test.X\src\ff.c	4496;"	l	line:4496
+valid_rec_char	X:\cpanel\mx_test.X\sdspi.c	27;"	v	line:27	file:
+validate	X:\cpanel\mx_test.X\src\ff.c	2333;"	f	line:2333	file:	signature:( void* obj )
+vinf	X:\cpanel\mx_test.X\test_main.c	95;"	v	line:95
+vn	X:\cpanel\mx_test.X\src\ff.c	3821;"	l	line:3821
+vol	X:\cpanel\mx_test.X\src\ff.c	2081;"	l	line:2081
+vol	X:\cpanel\mx_test.X\src\ff.c	2169;"	l	line:2169
+vol	X:\cpanel\mx_test.X\src\ff.c	2373;"	l	line:2373
+vol	X:\cpanel\mx_test.X\src\ff.c	2862;"	l	line:2862
+vol	X:\cpanel\mx_test.X\src\ff.c	3981;"	l	line:3981
+volbase	X:\cpanel\mx_test.X\src\ff.h	101;"	m	line:101
+vs	X:\cpanel\mx_test.X\src\ff.c	3983;"	l	line:3983
+vst	X:\cpanel\mx_test.X\src\ff.c	3979;"	l	line:3979	file:
+w	X:\cpanel\mx_test.X\src\ff.c	1773;"	l	line:1773
+w	X:\cpanel\mx_test.X\src\ff.c	1810;"	l	line:1810
+w	X:\cpanel\mx_test.X\src\ff.c	3772;"	l	line:3772
+w	X:\cpanel\mx_test.X\src\ff.c	3823;"	l	line:3823
+w	X:\cpanel\mx_test.X\src\ff.c	4495;"	l	line:4495
+wait_ready	X:\cpanel\mx_test.X\sdspi.c	47;"	f	line:47	file:	signature:(void)
+wbuff	X:\cpanel\mx_test.X\src\ff.c	2659;"	l	line:2659
+wc	X:\cpanel\mx_test.X\src\ff.c	1313;"	l	line:1313
+wc	X:\cpanel\mx_test.X\src\ff.c	1344;"	l	line:1344
+wc	X:\cpanel\mx_test.X\src\ff.c	1379;"	l	line:1379
+wc	X:\cpanel\mx_test.X\src\ff.c	1423;"	l	line:1423
+wc	X:\cpanel\mx_test.X\src\ff.c	868;"	l	line:868
+wcnt	X:\cpanel\mx_test.X\src\ff.c	2658;"	l	line:2658
+wdttime	X:\cpanel\mx_test.X\sdspi.h	39;"	p	line:39	signature:(unsigned long int)
+wflag	X:\cpanel\mx_test.X\src\ff.h	82;"	m	line:82
+win	X:\cpanel\mx_test.X\src\ff.h	106;"	m	line:106
+winsect	X:\cpanel\mx_test.X\src\ff.h	105;"	m	line:105
+wsect	X:\cpanel\mx_test.X\src\ff.c	3983;"	l	line:3983
+wsect	X:\cpanel\mx_test.X\src\ff.c	757;"	l	line:757
+xmit_spi_bus	X:\cpanel\mx_test.X\sdspi.c	179;"	f	line:179	signature:(unsigned char dat, WORD pace, WORD srq)
+xmit_spi_bus	X:\cpanel\mx_test.X\sdspi.h	21;"	p	line:21	signature:(unsigned char, WORD, WORD)
+xmit_spi_sdcard	X:\cpanel\mx_test.X\sdspi.c	208;"	f	line:208	signature:(unsigned char dat)
+xmit_spi_sdcard	X:\cpanel\mx_test.X\sdspi.h	23;"	p	line:23	signature:(unsigned char)
