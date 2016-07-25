@@ -9,11 +9,11 @@
  * Slave #1 select pin: B0 pin 4, B1 pin 5, B3 pin 7
  * Slave #2 select pin: A3
  *
- * Slave1 Inputs struct INBITS
+ * Slave1 Inputs structure INBITS
  * SD card eject button is bit 0 'eject'
  * SD card detect switch is bit 5 'card_detect'
  *
- * Slave1 outputs struct OUTBITS
+ * Slave1 outputs structure OUTBITS
  * SD card eject lamp is bit 2 'eject_led'
  */
 
